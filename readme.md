@@ -20,8 +20,10 @@ Setup will require the generation of data from web pages downloaded from Shoryuk
 
 ![setup](http://i.imgur.com/0Pmjs.png)
 
-```
+
 rawextract.py usage:
+```
+Usage:
 rawextract.py [-h] DIRECTORY OUTPUT
 
 -h, --help:   shows help message
