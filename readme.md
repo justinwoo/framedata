@@ -6,6 +6,8 @@ Date: 1-Jan 2013
 
 This script allows the user to run a simple IRC bot that listens for messages preceded by ']' to retrieve framedata information.
 
+![example](http://i.imgur.com/8miXF.png)
+
 ```
 Usage:
 fdata_bot.py [-h] SERVER NICK CHANNEL
