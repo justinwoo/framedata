@@ -38,3 +38,5 @@ If anyone wishes to continue work and talk to me about it, just e-mail me.
 
 To be done:
 Consider multi-pass filtering of selected moves by delimiting elements of the "move" -- i.e. pass the whole move list, build up a list of {key,value} pairs and then filter out non-matching segments from that. That way, for wanted element A, the total moveset could be {A,B,C,D,E,F}, the first pass gets [{A,A.data},{B,B.data},{C,C.data}] and the second pass with the second element would potentially exclusively get [{A,A.data}]. To be done by someone with motivation.
+
+What if we stuffed each server connection into separate processes using multiprocessing? To do: make chatbot into a class so that instances of it can be used in asynchronous functions.
