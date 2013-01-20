@@ -167,7 +167,5 @@ pip-log.txt
 #############
 
 #data you generate yourself
-data/
-
-#my raw files that you would hate to download
-raw/
+.csv
+.dat
