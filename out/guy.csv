@@ -1,0 +1,71 @@
+close jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,cannot hit crouching opponents
+close strong,hl,60,100,40,sp/su,5,2,16,+1,+5,
+close fierce,hl,100,200,60,sp/su,5,2,19,-3,+2,forces stand
+close short,hl,20,50,20,sp/su,5,3,11,-3,0,
+close forward,hl,80,100,40,sp/su,7,2,11,+3,+6,
+close roundhouse,hl,100,200,60,su,7,3,13,+2,+8,
+far jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,cannot hit crouching opponents
+far strong,hl,60,100,40,sp/su,5,2,16,-4,-1,
+far fierce,hl,100,200,60,-,7,2,13,+3,+7,
+far short,hl,40,50,20,-,6,2,9,0,+3,
+far forward,hl,70,100,40,-,8,2,12,-1,+3,
+far roundhouse,hl,110,200,60,-,8,3,16,-1,+3,
+crouch jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,
+crouch strong,hl,70,100,40,sp/su,6,3,9,+2,+5,
+crouch fierce,hl,100,200,60,-,9,2,13,+3,+8,forces stand
+crouch short,l,30,50,20,sp/su,3,2,7,+2,+5,
+crouch forward,l,30*40,30*40,40*20,-,6,2(2)2,12,0,-,2nd hit hard knockdown
+crouch roundhouse,l,90[50],100[80],60,-,7,11,15,-10[-5],-[-3],hard knockdown (first 5f), [] refers to after 5th active frame
+jump up jab,h,50,50,20,-,5,7,-,-,-,
+jump up strong,h,80,100,40,-,5,4,-,-,-,
+jump up fierce,h,100,200,60,-,6,4,-,-,-,
+jump up short,h,40,50,20,-,5,8,-,-,-,
+jump up forward,h,80,100,40,-,6,3,-,-,-,
+jump up roundhouse,h,50*50,50*50,60*20,-,5,2(6)4,-,-,-,[air hit] limited juggle knockdown, 2nd hit pursuit property
+jump forward jab,h,50,50,20,-,5,7,-,-,-,
+jump forward strong,h,80,100,40,-,5,3,-,-,-,
+jump forward fierce,h,100,200,60,-,6,4,-,-,-,
+jump forward short,h,40,50,20,-,5,8,-,-,-,
+jump forward forward,h,70,100,40,-,6,6,-,-,-,
+jump forward roundhouse,h,100,200,60,-,8,3,-,-,-,
+ninja sickle (downright,hl,40*60,100*100,60*20,-,11,2(3)2,12 + after landing 13,-9,-,14f~ airborne, 2nd hit floats opponent
+neck breaker (forward,h,30*30,50*50,10*10,-,15,2*2,16,-2,+2,
+elbow drop (down,hl,80,100,40,-,8,until ground,after landing 4,-,-,
+bushin chain (2nd hit),hl,60,50,10,-,7,2,24,-8,-3,
+bushin chain (3rd hit),hl,80,50,20,-,5,2,18,-9,+3,
+bushin chain (4th hit),hl,100,130,20,su,11,3,26,-11,-,
+bushin chain (4th hit) down,-,100,0,30,-,3,2,20,-,-,floats opponent
+strong,hl,40,60,20,sp/su,7,2,23,-5,-2,forces stand
+wall jump,-,-,-,-,-,-,-,-,-,-,
+focus attack lvl1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl3,-,140,200,60,-,65,2,35,-,-,
+forward throw,0.84,130,160,40,-,3,2,20,-,-,hard knockdown
+back throw,0.84,130,120,40,-,3,2,20,-,-,hard knockdown
+hozanto jab,hl,80,140,10/20,su,19,3,21,-1,-,5~15f upper body projectile invincible, armor break
+hozanto strong,hl,130,160,10/30,su,23,3,22,-2,-,5~19f upper body projectile invincible, armor break
+hozanto fierce,hl,160,200,20/40,su,30,3,22,-6,-,5~26f upper body projectile invincible, armor break
+hozanto ex,hl,120,200,-250/0,su,10,3,24,-6,-,armor break, pursuit property
+bushin senpukyaku short,hl,40x3,100*50x2,20/12x3,-,10,2(6)1(7)1,11 + after landing 19,-18,-,1~9f mid body projectile invincible, 10~28f lower body strike and projectile invincible, 1~9f unthrowable, 7f~ airborne, 2nd-3rd hit pursuit property, 3rd hit cannot hit crouching opponents
+bushin senpukyaku forward,hl,50x3,100*50x2,20/12x3,-,9,2(6)2(6)2,16 + after landing 19,-15,-,1~26f lower body strike invincible, 1~42f projectile invincible (total body until 10f, lower body after), 7f~ airborne, 2nd-3rd hit pursuit property
+bushin senpukyaku roundhouse,-,50*20*20*70,50x4,20/12*10x3,-,6,3(6)1(7)1(6)1,16 + after landing 19,-,-,1~30f lowerbody strike and projectile invincible, 5f~ airborne, pursuit property, cannot hit crouching opponents
+bushin senpukyaku ex,hl,50x3*20,50x4,-250/0,-,4,2(5)1(6)1(5)2,16 + after landing 19,-20,-,1~10f invincibuel, 11~25f lower body strike and projectile invincible, 3f~ airborne, pursuit property, frame advantage is based off 3rd hit
+bushin flip jab,-,-,-,20/-,-,-,-,total 68,-,-,7f~ airborne, 26 grounded recovery frames, 22f~ can cancel into followup
+bushin flip strong,-,-,-,20/-,-,-,-,total 70,-,-,7f~ airborne, 26 grounded recovery frames, 22f~ can cancel into followup
+bushin flip fierce,-,-,-,20/-,-,-,-,total 70,-,-,7f~ airborne, 26 grounded recovery frames, 22f~ can cancel into followup
+bushin flip ex,-,-,-,-250/-,-,-,-,total 65,-,-,1~14f projectile and throw invincible, passes through opponent, 7f~ airborne, 20 grounded recovery frames, tracks opponent, 22f~ can cancel into followup
+bushin izuna otoshi (throw),0.80,180,150,0/40,-,1,1,after landing 8,-,-,hard knockdown, only hits standing and airborne opponents
+bushin flip elbow drop,hl,80,100,0/40,-,13,until ground,after landing 8,-,-,
+run,-,-,-,0,-,-,-,see followup,-,-,5f~ can cancel into followup
+sudden stop,-,-,-,0,-,-,-,total 17,-,-,fastest stop is 21f
+shadow kick,l,110,100,10/60,su,4+9,6,22,-10,-,hard knockdown
+neck flip,hl*h,100*70,100*100,10/40*40,-,4+22,2*3,20,-6,+2,1~14f lower body strike and projectile invincible, 15~28f airborne, 1st hit floats airborne opponents
+run ex,-,-,-,-250/-,-,-,-,see followup,-,-,1f~ 2-hit armor, 5f~ can cancel into followup
+sudden stop (from run),-,-,-,0,-,-,-,total 17,-,-,fastest stop is 21f
+shadow kick (from run),l,120,100,0/60,su,4+9,13,14,-9,-,hard knockdown, 1~28f projectile invincible
+neck flip (from run),hl*h,100*70,200*100,0/40*40,-,4+23,2*3,20,-6,+2,1~22f projectile invincible, 1~14f lower body strike invincible, 15~29f airborne
+kaiten izuna otoshi,1.00,180,180,10/80,-,3,2,-,-,-,hard knockdown, connects on airborne opponents only
+kaiten izuna otoshi ex,1.00,170,180,-250/0,-,3,3,-,-,-,1~2f invincible, hard knockdown, connects on airborne opponents only
+super combo,hl,80*40x5*100,0,-1000/0,-,1+7,2,10 + after landing 18,-15,-,1~8f invincible, 1f~ airborne, untechable limited juggle knockdown, pursuit property, animation continues on hit or block
+ultra combo 1,hl,29*27x3*350,0,0,-,0+12,2(11)2(16)2(17)1,40,-20,-,1~12f invincible, hard knockdown, armor break, pursuit property, 4th hit goes into animation
+ultra combo 2,0.98,500,0,0,-,0+1,2,38,-,-,1~2f invincible, hard knockdown

@@ -1,0 +1,70 @@
+close jab,hl,20,50,20,ch/sp/su,4,2,6,+4,+8,
+close strong,hl,55,100,40,sp/su,5,2,12,+4,+6,
+close fierce,hl,70*50,100*50,60*20,sp/su*-,6,1*3,17,-5,+2,seiei enbu damage 40*65
+close short,hl,30,50,20,sp/su,5[3],2,8,+1,+4,[] refers to seiei enbu
+close forward,hl,50,100,40,jump,7,4,12,-2,-,floats opponent, 7f~ jump cancellable
+close roundhouse,hl,110,200,60,-,10,4,18,-8,-4,
+far jab,hl,20,50,20,ch/sp/su,4,2,6,+4,+8,
+far strong,hl,55,100,40,-,6,2,13,-1,+2,can juggle
+far fierce,hl,100,200,60,-,9,4,19,-4,+1,can juggle
+far short,hl,30,50,20,sp/su,5[3],2,8,+1,+4,[] refers to seiei enbu
+far forward,hl,70,100,40,-,7,3,10,-1,+1,
+far roundhouse,hl,110,200,60,-,10,4,18,-8,-4,
+crouch jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,
+crouch strong,l,70[60],100,40,-,5,2,10,-2,+2,[] refers to damage during seiei enbu
+crouch fierce,hl,75*50,125*75,60*20,-,9,3(3)2,14,-2,+1,[2nd ground hit] forces stand / seiei enbu damage 60*40
+crouch short,l,20,50,20,sp/su,3,2,8,+1,+4,
+crouch forward,l,60,100,40,sp/su,6,2,14,-1,+1,
+crouch roundhouse,l,90,150,60,-,8,2,23,-7,-,hard knockdown
+jump  jab,h,50,50,20,-,4,11,-,-,-,
+jump  strong,h,80,100,40,-,4,7,-,-,-,
+jump  fierce,h,100,200,60,-,7,6,-,-,-,
+jump  short,h,40,50,20,-,4,8,-,-,-,
+jump  forward,h,70,100,40,-,6,5,-,-,-,
+jump  roundhouse,h,100,200,60,-,5,6,-,-,-,
+jump  up fierce,h,100,200,60,-,8,7,-,-,-,
+senpuukyaku (right,h,80,100,40,-,20,4,13,-2,0,10~19f feet invincible, 8~23f airborne
+raigekishuu (downright,hl,60,50,40,-,7,until ground,after landing 6,-,-,can juggle
+raigekishuu (downright,hl,60,50,40,-,7,until ground,after landing 6,-,-,can juggle
+raigekishuu (downright,hl,60,50,40,-,7,until ground,after landing 6,-,-,can juggle
+close short,hl,40,60,40,j,7,4,19,-5,+1,11f~ jump  cancellable
+close short,hl,87,100,40,-,5,3,17,-2,+2,
+strong,hl,35,50,20,-,10,4,23,-7,+1,
+strong,hl,50,50,20,su,15,4,22,-8,-,floats opponent, projectile hitbox
+jump  forward forward,hl,60,150,60,-,4,until ground,after landing 6,-,-,
+focus attack lvl1,hl,60,100,20,-,21,2,34,-20,-20,
+focus attack lvl2,hl,80,150,40,-,17+12,2,34,-14,-,
+focus attack lvl3,-,140,200,60,-,65,2,34,-,-,
+forward throw,0.9,120,100,40,-,3,2,20,-,-,
+back throw,0.9,130,120,40,-,3,2,20,-,-,
+tourou zan jab,hl,30,50,10/20,su,8,2,22,-2,+1,19f~ cancellable into next attack
+tourou zan jab,hl,40,50,10/20,su,8,2,25,-5,-1,19f~ cancellable into next attack
+tourou zan jab,hl,60,80,10/20,su,8,2,29,-8,-,
+tourou zan strong,hl,35,50,10/20,su,8,2,25,-4,-1,19f~ cancellable into next attack
+tourou zan strong,hl,50,50,10/20,su,8,2,28,-8,-4,19f~ cancellable into next attack
+tourou zan strong,hl,60,80,10/40,su,8,2,33,-12,-,
+tourou zan fierce,hl,40,50,10/20,su,8,2,30,-6,-3,19f~ cancellable into next attack
+tourou zan fierce,hl,55,50,10/20,su,8,2,35,-10,-6,19f~ cancellable into next attack
+tourou zan fierce,hl,60,80,10/40,su,8,2,35,-14,-,
+tourou zan ex,hl,60,50,-250/0,su,7,1,18,-1,0,can juggle, 15f~ cancellable into next attack
+tourou zan ex,hl,32,50,0,su,5,1,20,-3,-2,can juggle, 13f~ cancellable into next attack
+tourou zan ex,hl,32,70,0,su,6,2,18[22],-8,-1,can juggle, 15f~ cancellable into next attack, [] refers to seiei enbu
+tourou zan ex,hl,32,80,0,su,5,1,23[27],-11,-5,can juggle, 13f~ cancellable into next attack, [] refers to seiei enbu
+tourou zan ex,hl,40,46,0,su,8,2,29,-13,-,can juggle
+kaihou short,-,-,-,0,-,-,-,total 27,-,-,11~15f invincible, 11~15f (translate)
+kaihou forward,-,-,-,0,-,-,-,total 34,-,-,13~19f invincible, 13~19f (translate)
+kaihou roundhouse,-,-,-,0,-,-,-,total 42,-,-,14~23f invincible, 14~23f (translate)
+kaihou ex,-,-,-,-250/0,-,-,-,total 32,-,-,1~13f strike and projectile invincible, 14~22f invincible, 14~22f (translate)
+byakko soushouda jab,-,-,-,-,-,-,-,total 26[24],-,-,1~24f lower body strike and projectile invincible, [] refers to seiei enbu
+byakko soushouda strong,hl,120,150,10/60,su,16,9,17[15],-7,0,armor break, projectile hitbox, [] refers to seiei enbu
+byakko soushouda fierce,hl,140,200,10/60,su,22,9,15[13],0,-,floats opponent, armor break, projectile hitbox, [] refers to seiei enbu
+byakko soushouda ex,hl,150,250,0,su,25,13,13,-10,-,1~20f lowerbody strike and projectile invincible, floats opponent, armor break, projectile hitbox,
+senkyuutai short,hl,70*50,100*50,30/30*30,su*-,5,3*3,33+14,-29,-,1~5f invincible, 5f~ airborne, 6~10f immune to projectiles, can juggle
+senkyuutai forward,hl,70*55,100*50,30/30*30,su*-,6~24,3*3,27+14,-24,-,[6~24f]~ airborne, can juggle, (translate), (translate)
+senkyuutai roundhouse,hl,70*60,100*100,30/30*30,su*-,7~38,3*3,23+14,-21,-,6~[11~43f] projectile invincible, [7~38f]~ airborne, can juggle, (translate), (translate)
+senkyuutai ex,hl,45*45*65,50*100*100,-250/0,su*su*-,4~31,1*1*2,27+17,-25,-,1~[11~34f] projectile invincible, [4~31f]~ airborne, can juggle, (translate), (translate)
+zenpou tenshin,0.96,0,0,10/30,-,10,2,48,-,+7,forces stand
+zenpou tenshin ex,1.19,0,0,-250/0,-,8,2,48,-,+7,forces stand
+super combo,-,-,-,-1000/0,-,1+0,370,total 7,-,-,1~2f invincible, (translate), (translate) follows 10f and 20f, (translate), (translate) damage 1/4, lasts 370 frames
+ultra combo 1,hl,480,0,0/0,-,0+8,5,43,-28,-,1~9f invincible, hard knockdown, on hit goes into animation
+ultra combo 2,hl,60*45x2*90[440],0,0/0,-,0+7~32,2(2)5(7)3(7)3(9)3,37+20,-79,-,1~32f projectile invincible, untechable juggle knockdown on [1st-5th air hit], can juggle, [1st ground hit] goes into animation

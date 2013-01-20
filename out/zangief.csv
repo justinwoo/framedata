@@ -1,0 +1,57 @@
+close jab,hl,40,50,20,ch/sp/su,4,6,7,-1,+2,frame advantage based on 2nd active frame
+close strong,hl,90,100,40,sp/su,5,2,14,-2,+1,
+close fierce,hl,140,200,60,-,7,4,20,-6,-1,on crouching opponents, -2 on hit
+close short,hl,30,50,20,-,4,2,10,-1,+2,
+close forward,hl,90,100,40,sp/su,5,2,15,-3,0,
+close roundhouse,hl,140,200,60,-,7,4,21,-5,-1,
+far jab,hl,30,50,20,ch/sp/su,4,2,7,+3,+6,
+far strong,hl,70,100,40,-,4,2,10,+2,+5,
+far fierce,hl,140,200,60,-,12,3,18,-3,+1,knockdown
+far short,hl,30,50,20,sp/su,4,2,7,+2,+5,5~6f cancellable (translate)
+far forward,hl,90,100,40,-,7,6,18,-10,-7,
+far roundhouse,hl,140,200,60,-,11,4,16,-2,+2,
+crouch jab,hl,20,50,20,ch/sp/su,4,3,6,+2,+5,
+crouch strong,hl,80,100,40,-,8,5,12,-3,+3,forces stand
+crouch fierce,hl,120,200,60,su,12,4,16,-2,+2,
+crouch short,l,40,50,20,sp/su,4,3,7,+1,+4,
+crouch forward,l,90,100,40,-,9,4,15,-5,-2,
+crouch roundhouse,l,120,200,60,-,9,5,18,-5,-,hard knockdown
+jump up jab,h,60,50,20,-,5,5,-,-,-,
+jump up strong,h,90,100,40,-,7,4,-,-,-,
+jump up fierce,h,140,200,60,-,10,6,-,-,-,
+jump up short,h,50,50,20,-,7,4,-,-,-,
+jump up forward,h,90,100,40,-,9,5,-,-,-,
+jump up roundhouse,h,120,200,60,-,9,6,-,-,-,
+jump forward jab,h,60,50,20,-,6,5,-,-,-,
+jump forward strong,h,90,100,40,-,7,3,-,-,-,
+jump forward fierce,h,120,200,60,-,11,6,-,-,-,
+jump forward short,h,50,50,20,-,7,4,-,-,-,
+jump forward forward,h,80,100,40,-,9,10,-,-,-,1~4f legs projectile invincibility
+jump forward roundhouse,h,120,200,60,-,9,6,-,-,-,
+down,h,100,150,60,-,6,7,-,-,-,
+down,h,50,50,20,-,8,6,-,-,-,
+up,h,100,500,40,-,4,6,-,-,-,
+up,h,120,600,60,-,6,12,-,-,-,
+downright,l,120,200,60,-,14,7,22,-11,-,hard knockdown
+focus attack lvl 1,hl,90,100,20,-,23,5,32,-21,-21,
+focus attack lvl 2,hl,120,150,40,-,17+16,5,32,-15,-,
+focus attack lvl 3,-,170,200,60,-,65,5,32,-,-,
+forward throw,0.94,160,180,40,-,3,2,20,-,-,hard knockdown
+back throw,0.94,160,180,40,-,3,2,20,-,-,hard knockdown
+spinning piledriver jab,1.75,180,150,40/100,-,2,2,52,-,-,hard knockdown
+spinning piledriver strong,1.45,200,150,40/100,-,2,2,50,-,-,hard knockdown
+spinning piledriver fierce,1.35,250,200,40/100,-,2,2,48,-,-,hard knockdown
+spinning piledriver ex,1.35,200,150,-250/0,-,4,2,47,-,-,1~5f strike invincibility, hard knockdown
+banishing flat jab,hl,120,100,30/30,su,11,2,21,-7,-5,6~20f forward body projectile invincible, projectile hitbox, knockdown on [air hit] or [counterhit]
+banishing flat strong,hl,130,150,30/30,su,13,2,22,-8,-6,8~22f forward body projectile invincible, projectile hitbox, knockdown on [air hit] or [counterhit]
+banishing flat fierce,hl,140,200,30/30,su,16,2,23,-9,-7,9~25f forward body projectile invincible, projectile hitbox, knockdown on [air hit] or [counterhit]
+banishing flat ex,hl,90*50,50*50,-250/0,-*su,13,1*1,27,-9,+1,1~13f strike invincible, 14~22f projectile invincible, projectile hitbox, 2nd hit can juggle, [air hit]1st hit knocks down, knockdown on [counterhit]
+lariat punch,hl,120*140,150*200,30/40,su*-,4,2(4)7(2)7(3)9(2)8(4)3,14,-44,-,1~5f upper body strike and projectile invincible, 4~5f legs projectile invincible, 6~54f feet projectile invincible and torso projectile and strike invincible, knockdown, (additional notes)
+lariat kick,hl,110*130,100*150,20/30,su*-,4,2(4)5(3)8(4)3,14,-22,-,1~32f legs strike and projectile invincible, knockdown, (additional notes)
+double german suplex,1.00,220,200,30/140,-,2,2,45,-,-,hard knockdown, (additional notes)
+double german suplex ex,1.00,240,200,-250/0,-,2,2,45,-,-,1~? armored, hard knockdown, (additional notes)
+running bear grab,2.92,200,150,30/80,-,1,2,45,-,-,hard knockdown, (additional notes)
+running bear grab ex,5.06,220,200,-250/0,-,1,2,45,-,-,1~? armored, hard knockdown, (additional notes)
+super combo,1.24,450,0,-1000/0,-,1+0,2,46,-,-,1f~ invincible, hard knockdown
+ultra combo 1,1.44,520,0,0/0,-,1+0,2,46,-,-,1f~ invincible, hard knockdown
+ultra combo 2,0.95,450,0,0/0,-,0+3,until landing,after landing 58,-,-,1f~until landing invincible, hard knockdown, (additional notes)

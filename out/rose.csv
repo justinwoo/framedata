@@ -1,0 +1,56 @@
+close jab,hl,20,50,20,ch/sp/su,4,2,10,-1,+2,
+close strong,hl,70,100,40,sp/su,6,2,11,+1,+4,
+close fierce,hl,90,200,60,sp/su,6,2,19,-3,+1,
+close short,hl,40,50,20,sp/su,4,2,10,-1,+2,
+close forward,hl,70,100,40,sp/su,7,3,11,0,+4,unthrowable for duration
+close roundhouse,hl,100,200,60,sp/su,7,2,18,-2,+3,forces stand
+far jab,hl,20,50,20,ch/sp/su,4,2,11,-2,+1,
+far strong,hl,70,100,40,sp/su,7,2,12,0,+3,
+far fierce,hl,100,200,60,-,11,5,18,-5,-1,
+far short,hl,30,50,20,-,4,2,10,-1,+2,
+far forward,hl,70,100,40,-,6,2,13,-1,+2,4~18f lower body strike and projectile invincible
+far roundhouse,hl,100,200,60,-,9,2,19,-3,+1,7f~ lower body strike and projectile invincible
+crouch jab,hl,20,50,20,ch/sp/su,3,3,8,0,+3,
+crouch strong,hl,60,100,40,sp/su,4,3,14,-3,0,
+crouch fierce,hl,100,150,60,sp/su,5,5,28,-15,-10,forces stand
+crouch short,l,30,50,20,-,4,4,6,+1,+4,
+crouch forward,l,60,100,40,sp/su,7,2,12,0,+3,
+crouch roundhouse,l,90,200,60,-,9,2,26,-10,-,hard knockdown
+jump up jab,h,40,50,20,-,4,6,-,-,-,
+jump up strong,h,70,100,40,-,6,6,-,-,-,
+jump up fierce,h,90,150,60,-,9,6,-,-,-,
+jump up short,h,50,50,20,-,4,7,-,-,-,
+jump up forward,h,80,100,40,-,7,6,-,-,-,
+jump up roundhouse,h,90,200,60,-,11,5,-,-,-,
+jump forward jab,h,40,50,20,-,4,6,-,-,-,
+jump forward strong,h,70,100,40,-,7,3,-,-,-,
+jump forward fierce,h,90,150,60,-,7,7,-,-,-,
+jump forward short,h,30,50,20,-,4,7,-,-,-,
+jump forward forward,h,60,100,40,-,7,5,-,-,-,
+jump forward roundhouse,h,100,200,60,-,6,5,-,-,-,
+slide,l,60,100,40,-,7,8,12,-6,-3,
+soul piety,hl,100,200,60,-,11,2,17,-1,+3,[air hit] limited juggle knockdown
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+14,2,35,-15,-,
+focus attack lvl 3,-,120,200,60,-,65,2,35,-,-,
+forward throw,1.00,140,100,40,-,3,2,20,-,-,hard knockdown
+back throw,1.00,140,100,40,-,3,2,20,-,-,hard knockdown
+soul spark jab,hl,80,50,30/20,su,14,-,total 52,-12,-8,16~17f cancellable
+soul spark strong,hl,80,50,30/20,su,22,-,total 52,-4,0,24~25f cancellable
+soul spark fierce,hl,80,50,30/20,su,29,-,total 53,+2,+6,31~32f cancellable
+soul spark ex,hl,30*70,50*50,-250/0,su,14,-,total 48,0,+4,16~17f cancellable, pursuit property
+soul spiral short,hl,100,100,20/40,su,12,6,23,-8,-,armor break
+soul spiral forward,hl,100,100,20/40,su,15,6,21,-6,-,armor break
+soul spiral roundhouse,hl,100,100,20/40,su,16,6,19,-4,-,armor break
+soul spiral ex,hl,120,100,-250/0,su,13,6,21,-6,-,1~11f invincible, armor break
+soul reflect jab,hl,50,100,20/30,su,13,2,27,-8,-,12~27f absorbs projectiles and gains 100 meter, increases soul spark and super damage by 5% up to 7 times (35%)
+soul reflect strong,hl,50,100,20/30,su,13,3,25,-7,-,10~23f reflects projectiles
+soul reflect fierce,hl,50,100,20/30,su,12,2,26,-7,-,11~21f reflects projectiles upwards
+soul reflect ex,hl,50,100,-250/0,su,8,2,24,-5,-,1~7f projectile invincible, 5~16f reflects projectiles, can reflect ex projectiles
+soul throw jab,0.55,160,100,40/40,-,6,10,26+8,-,-,6f~ airborne, hard knockdown, pursuit property, only hits airborne opponents
+soul throw strong,0.55,160,100,40/40,-,6,11,27+8,-,-,6f~ airborne, hard knockdown, pursuit property, only hits airborne opponents
+soul throw fierce,0.55,160,100,40/40,-,6,11,30+8,-,-,6f~ airborne, hard knockdown, pursuit property, only hits airborne opponents
+soul throw ex,0.55,160,100,-250/0,-,6,11,30+8,-,-,1~7f invincible, 6f~ airborne, hard knockdown, pursuit property, only hits airborne opponents
+super combo,hl,50x4*100,0,-1000/0,-,1+8,-,total 53,+16,-,1~7f invincible, pursuit property, cannot use when a soul spark is active
+ultra combo 1,hl,498,0,0/0,-,0+12,14,44,-37,-,1~12f invincible, hard knockdown, armor break, active frames 6~14 reach further, goes into animation on hit
+ultra combo 2,hl,120*120,0,0/0,-,0+5,600,2,-,-,[air hit] limited juggle knockdown, armor break, projectile hitbox, orbs disappear if rose takes damage

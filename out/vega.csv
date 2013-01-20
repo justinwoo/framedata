@@ -1,0 +1,65 @@
+close jab,hl,30[20],50,20,sp/su,4,2,10,-1,+2,
+close strong,hl,70[60],100,40,sp/su,7,2,13,-1,+2,
+close fierce,hl,50[40]x2,50*50,60*20,sp/su*-,9,3(7)3,14,+1,+5,forces stand
+close short,hl,30,50,20,-,4,2,10,-1,+2,
+close forward,hl,70,100,40,sp/su,6,2,13,-1,+2,
+close roundhouse,hl,40*70,125*75,60*20,su,4,2*2,23,-7,-2,forces stand
+far jab,hl,30[20],50,20,sp/su,4,2,10,-1,+2,
+far strong,hl,90[80],100,40,su,7,2,14,-2,+1,
+far fierce,hl,120[110],200,60,-,8,3,23,-8,-4,
+far short,hl,40,50,20,-,5,2,7,+2,+5,
+far forward,hl,70,100,40,-,8,2,15,-3,0,
+far roundhouse,hl,40*70,125*75,60*20,su*-,4,2*2,23,-7,-2,forces stand
+crouch jab,hl,30[20],50,20,sp/su,4,2,8,+1,+4,
+crouch strong,hl,60[50],100,40,sp/su,4,2,16,-4,-1,
+crouch fierce,hl,110[100],200,60,-,5,2,27,-11,-6,forces stand
+crouch short,l,20,50,20,sp/su,4,2,9,0,+3,
+crouch forward,l,70,100,40,sp/su,6,3,9,+2,+5,
+crouch roundhouse,l,110,200,60,-,8,13,17,-12,-,hard knockdown
+jump up jab,h,50[40],50,20,-,6,5,-,-,-,
+jump up strong,h,80[70],100,40,-,5,3,-,-,-,
+jump up fierce,h,100[90],200,60,-,6,2,-,-,-,
+jump up short,h,40,50,20,-,6,9,-,-,-,
+jump up forward,h,80,100,40,-,6,7,-,-,-,
+jump up roundhouse,h,100,200,60,-,4,5,-,-,-,
+jump forward jab,h,50[40],50,20,-,5,5,-,-,-,
+jump forward strong,h,80[70],100,40,-,5,5,-,-,-,
+jump forward fierce,h,100[90],200,60,-,5,4,-,-,-,
+jump forward short,h,40,50,20,-,6,7,-,-,-,
+jump forward forward,h,70,100,40,-,6,6,-,-,-,
+jump forward roundhouse,h,100,200,60,-,6,6,-,-,-,
+downright,h,60,100,40,-,20,3,13,-4,0,10~22f airborne
+downright,hl,80,100,60,-,14,5,10 + after landing 4,-3,-,18~24f feet strike and projectile invincible, 14~ airborne, floats opponent
+triangle jump,-,-,-,-,-,-,-,-,-,-,from wall 6f~ can perform actions
+backflip punch,-,-,-,-,-,-,-,total 65,-,-,1~57f invincible, can pass through opponent, can pick up mask or claw until 31f, treated as special move
+backflip kick,-,-,-,-,-,-,-,total 42,-,-,1~32f invincible, can pass through opponent, treated as special move
+focus attack lvl 1,hl,60[50],100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80[70],150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,140[130],200,60,-,65,2,35,-,-,
+forward throw,1.07,120,120,40,-,3,2,20,-,-,hard knockdown
+back throw,1.07,120,120,40,-,3,2,20,-,-,hard knockdown
+air throw,1.20,150,130,40,-,3,2,-,-,-,hard knockdown, legs projectile invincible until end of active frames
+rolling crystal flash jab,hl,20*90[80],20*100,20/10*30,su,9,9(7)4,22,-2,+2,charge 60f
+rolling crystal flash strong,hl,20x3*90[80],20x3*100,20/10x3*30,su,16,9(5)8(5)8(6)4,22,-2,+2,charge 60f
+rolling crystal flash fierce,hl,20x4*90[80],20x4*100,20/10x4*30,su,20,9(5)8(5)9(5)8(6)4,22,-2,+2,charge 60f
+rolling crystal flash ex,hl,20x4*90[80],20x4*100,-250/0,su,20,9(5)8(5)9(5)8(6)4,20,0,+4,1~78f projectile invincible, charge 60f
+scarlet terror short,hl,100,150,30/30,-,7,10,15 + after landing 8,-12,-,1~16f unthrowable, 3f~ airborne, armor break, charge 42f
+scarlet terror forward,hl,80*60,100*100,30/20*20,-,7,5*5,14 + after landing 9,-12,-,1~16f unthrowable, 3f~ airborne, armor break, 2nd hit pursuit property, block advantage based on 1st hit, charge 42f
+scarlet terror roundhouse,hl,100*60,100*100,30/20*20,-,4,8*5,14 + after landing 9,-15,-,1~16f unthrowable, 3f~ airborne, armor break, 2nd hit pursuit property, block advantage based on 1st hit, charge 42f
+scarlet terror ex,hl,110*70,150*100,-250/0,-,4,8*5,14 + after landing 9,-15,-,1~4f projectile and throw invincible, 3f~ airborne, armor break, pursuit property, block advantage based on 1st hit, charge 42f
+sky high claw,hl,110[100],200,30/40,-,from wall 15,until edge of screen,after landing 17,-20,-,8f~ airborne, 2f~end of active frames can pass through opponent, fastest startup 24f, charge 42f
+sky high claw ex,hl,60[50]x2,100,-250/0,-,from wall 10,until edge of screen,after landing 17,-18,-,8f~ airborne, from wall to end of active frames projectile invincible, 2f~end of active frames can pass through opponent, armor break, 2nd hit pursuit property, fastest startup 18f, charge 42f
+flying barcelona attack,-,-,-,20/-,-,-,-,after landing 31,-,-,8f~ airborne, fastest time to wall 10f, from wall can direct left or right, from wall 18f~ can cancel into followup, charge 42f
+flying barcelona attack punch,h,90[80],100,0/40,-,3,11,after landing 31,-,-,fastest startup 20f, damage is 70[60]/80[70]/90[80] depending on lk/mk/hk version of fba
+flying barcelona attack ex,hl,30,50,-250/-,-,9,until edge of screen,after landing 31,-,-,8f~ airborne, floats opponent, fastest time to wall 10f, from wall can direct left or right, from wall 18f~ can cancel into followup, charge 42f
+flying barcelona attack ex,h,50*90[40*80],50*100,0/0,-,2,1(1)11,after landing 31,-,-,2nd hit pursuit property, fastest startup 19f
+izuna drop,0.77*h,150,150,80,-,2,1(1)11,after landing 31,-,-,1st hit hard knockdown, 2nd hit limited juggle knockdown, 2nd hit of ex version does 50[40]damage 50stun 0meter
+claw throw,-,-,-,-,-,-,-,total 40,-,-,claw removed on 19f, reduces damage of vega's attacks
+mask throw,-,-,-,-250/-,-,-,-,total 40,-,-,mask removed on 19f, increases damage taken by 10%, increases damage done by 10%
+flying barcelona special,-,-,-,-1000/0,-,-,-,after landing 31,-,-,8f~ airborne, fastest time to wall 10f, after reaching wall flash starts on 12f, invincible during flash (1f), charge 42f
+flying barcelona special punch,h,60[50]x3*100[90],0,0/0,-,2,11(2)10,after landing 31,-,-,pursuit property
+rolling izuna drop,0.91*h,400,0,0/0,-,2,11(2)10,after landing 31,-,-,1st hit hard knockdown, 2nd hit limited juggle knockdown
+ultra combo 1 (1st hit),hl,30,0,0/0,-,8,until edge of screen,-,-,-,1f~ until wall projectile and throw invincible, can pass through opponents, 8f~ airborne, floats opponent, charge 42f
+ultra combo 1 (2nd hit backwards),hl,450[375],0,0/0,-,after flash 1,7,31,-,-,after reaching wall flash starts on 8f, from flash to end of active frames invincible, hard knockdown, armor break
+ultra combo 1 (2nd hit forwards),hl,450[375],0,0/0,-,after flash 1,9,20 + after landing 31,-,-,after reaching wall flash starts on 8f, from flash to end of active frames invincible, hard knockdown, armor break
+ultra combo 2,l,150*300[285],0,0/0,-,0+8,15,39,-36,-,1~14f invincible, hard knockdown, armor break, charge 42f

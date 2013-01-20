@@ -1,0 +1,19 @@
+close,cl
+jab,lp
+strong,mp
+fierce,hp
+short,lk
+forward,mk
+roundhouse,hk,rh
+far,f
+crouch,low,cr,crouching
+jump up,nj
+jump forward,jf,fj,j
+shoryuken,dp,srk
+spinning pile driver,spd
+forward throw,fthrow
+back throw,bthrow
+ultra 1,u1
+ultra 2,u2
+ultra,ult
+low roundhouse,sweep

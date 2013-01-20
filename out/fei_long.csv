@@ -1,0 +1,62 @@
+close jab,hl,30,50,20,ch/sp/su,3,2,7,+2,+5,
+close strong,hl,70,100,40,sp/su,5,2,16,+3,+7,
+close fierce,hl,100[80],200[150],60,sp/su,4,5,25,-12,-7,forces stand, [] refers to active frames 3~5
+close short,hl,30,50,20,-,4,2,9,0,+3,
+close forward,hl,75,100,40,sp/su,4,2,18,-6,-3,
+close roundhouse,hl,120,200,60,su,6,3,24,-9,-5,
+far jab,hl,30,50,20,ch/sp/su,3,2,7,+2,+5,
+far strong,hl,80,100,40,su,5,2,16,-4,-1,
+far fierce,hl,120,200,60,-,7,3,18,-3,+1,
+far short,hl,40,50,20,-,4,2,11,-2,+1,
+far forward,hl,70,100,40,-,7,2,18,-6,-3,
+far roundhouse,hl,110,200,60,-,9,4,20,-6,-2,
+crouch jab,hl,20,50,20,ch/sp/su,3,2,9,0,+3,
+crouch strong,hl,55,100,40,su,4,3,9,+2,+5,
+crouch fierce,hl,100,200,60,-,8,3,20,-5,0,forces stand
+crouch short,l,20,50,20,ch/su,3,3,8,0,+3,
+crouch forward,l,80,100,40,su,5,4,13,-3,0,
+crouch roundhouse,l,100,150,60,-,6,2,25,-9,-,hard knockdown
+jump  up jab,h,50,50,20,-,4,4,-,-,-,
+jump  up strong,h,80,100,40,-,5,3,-,-,-,
+jump  up fierce,h,100,200,60,-,6,4,-,-,-,
+jump  up short,h,50,50,20,-,4,5,-,-,-,
+jump  up forward,h,80,100,40,-,6,6,-,-,-,
+jump  up roundhouse,h,100,200,60,-,6,5,-,-,-,
+jump  forward jab,h,50,50,20,-,4,5,-,-,-,
+jump  forward strong,h,80,100,40,-,5,5,-,-,-,
+jump  forward fierce,h,100,200,60,-,6,6,-,-,-,
+jump  forward short,h,40,50,20,-,4,8,-,-,-,
+jump  forward forward,h,70,100,40,-,5,4,-,-,-,
+jump  forward roundhouse,h,100,200,60,-,6,7,-,-,-,
+overhead,h,70,100,40,-,18,2,2 + after landing 14,-4,+1,6f~ airborne, only -1 hit advantage vs crouching opponents
+right,hl,90*60,150*50,60*20,-*su,15,2(7)2,15,-1,+3,
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,140,200,60,-,65,2,35,-,-,
+forward throw,0.88,130,130,40,-,3,2,20,-,-,hard knockdown
+back throw,0.88,140,140,40,-,3,2,20,-,-,hard knockdown
+rekka ken jab,hl,50,50,10/10,-,7,2,21,-4,0,16f~ cancellable into next move
+rekka ken strong,hl,55,50,10/10,-,9,2,23,-6,-2,18f~ cancellable into next move
+rekka ken fierce,hl,60,50,10/10,-,10,2,25,-8,-4,19f~ cancellable into next move
+rekka ken jab,hl,50,50,10/10,-,7,2,23,-8,-2,17f~ cancellable into next move
+rekka ken strong,hl,55,50,10/10,-,7,2,25,-10,-4,17f~ cancellable into next move
+rekka ken fierce,hl,60,50,10/10,-,7,2,27,-12,-6,17f~ cancellable into next move
+rekka ken jab,hl,60,50,10/10,-,7,2,36,-19,-,
+rekka ken strong,hl,60,50,10/10,-,9,2,36,-19,-,
+rekka ken fierce,hl,60,50,10/10,-,9,2,40,-23,-,
+rekka ken ex,hl,65,50,-250/0,-,7,2,25,0,+2,16f~ cancellable into next move, projectile hitbox
+rekka ken ex,hl,65,50,0/0,-,7,2,27,-1,0,17f~ cancellable into next move, projectile hitbox
+rekka ken ex,hl,70,50,0/0,-,9,2,40,-23,-,projectile hitbox
+flame kick short,hl,110[70],200[100],30/40,su,5,12,16+22,-30,-,1~4f invincible, 5~6f unthrowable, 7f~ airborne, [] refers to active frames 3~12
+flame kick forward,hl,120[90],200[100],30/40,su*-,5,12,20+22,-32,-,1~5f invincible, 6f unthrowable, 7f~ airborne, [] refers to active frames 3~12
+flame kick roundhouse,hl,100*50,100*100,30/40*20,su*-,5,2*10,24+22,-36,-,1~5f invincible, 6f unthrowable, 7f~ airborne, 2nd hit can juggle
+flame kick ex,hl,100*50*40,100*50*40,-250/0,su*-*-,5,2*8*11,18+22,-39,-,1~6f invincible, 7f~ airborne, 2nd &amp; 3rd hit can juggle
+flying kick short,hl,30*30*40,50x3,10/30*20*20,-,14,2(5)4(6)2,5+16,-4,0,1~8f invincible, 9f~ airborne, 1st hit armor break, can juggle
+flying kick forward,hl,30*30*50,50x3,10/30*20*20,-,16,2(5)4(6)2,5+14,-2,+2,1~10f invincible, 11f~ airborne, 1st hit armor break, can juggle
+flying kick roundhouse,hl,35*35*30,50x3,10/30*20*20,-,18,2(5)4(6)2,4+13,0,+4,13f~ airborne, 1st hit armor break, can juggle
+flying kick ex,hl,30*30*40,50x3,-250/0,-,18,2(5)4(6)2,4+13,0,+4,1~12f invincible, 13~36f projectile invincible, 13f~ airborne, 1st hit armor break, can juggle
+kaiten,0.92,0,0,10/40,-,14,2,51,-,+7,forces stand
+kaiten ex,1.23,0,0,-250/0,-,12,2,51,-,+7,forces stand
+super combo,hl,50x4*170,0,-1000/0,-,1+5,2(10)2(12)2(11)2(20)2,57,-38,-,1~6f invincible, can juggle
+ultra combo 1,hl,60x4*165[375],0,0/0,-,0+10,2(11)2(12)2(10)2(21)2,57,-38,-,1~11f invincible, hard knockdown, 2nd &amp; 4th hit cannot hit airborne opponents, grounded hit goes into animation, [] refers to animation
+ultra combo 2,-,470,0,0/0,-,0+1,35,61,-,-,counters for 35f, (something about hitting), hard knockdown

@@ -1,0 +1,68 @@
+close jab,hl,30,50,20,ch/sp/su,4,2,6,+3,+6,
+close strong,hl,70,100,40,sp/su,3,2,13,-1,+4,
+close fierce,hl,100,200,60,sp/su,4,2,26,-10,-6,
+close short,hl,40,50,20,-,5,2,7,+2,+5,
+close forward,hl,70,100,40,su,5,2,14,-2,+1,
+close roundhouse,hl,40*70,125*75,60*20,su*-,6,2(4)4,17,-3,+2,only +1 on hit vs. crouching opponents
+far jab,hl,30,50,20,ch/sp/su,3,2,5,+4,+7,
+far strong,hl,80,100,40,su,4,2,13,-1,+2,
+far fierce,hl,120,200,60,-,6,3,16,-1,+3,
+far short,hl,40,50,20,-,3,2,8,+1,+4,
+far forward,hl,80,100,40,-,9,2,13,-1,+2,
+far roundhouse,hl,50*30,125*75,60*20,-,8,2(8)2,16,-2,+5,forces stand
+crouch jab,hl,30,50,20,ch/sp/su,3,2,7,+2,+5,
+crouch strong,hl,60,100,40,sp/su,4,3,9,+2,+5,
+crouch fierce,hl,100,200,60,sp/su,6,4,23,-9,-4,forces stand
+crouch short,l,20,50,20,ch/sp/su,4,2,9,0,+3,
+crouch forward,l,60,100,40,sp/su,5,3,13,-2,+1,
+crouch roundhouse,l,90,100,60,-,6,3,24,-9,-,hard knockdown
+jump  up jab,h,50,50,20,-,4,7,-,-,-,
+jump  up strong,h,80,100,40,-,5,3,-,-,-,
+jump  up fierce,h,100,200,60,-,6,3,-,-,-,
+jump  up short,h,40,50,20,-,5,6,-,-,-,
+jump  up forward,h,80,100,40,-,6,4,-,-,-,
+jump  up roundhouse,h,100,200,60,-,5,3,-,-,-,
+jump  forward jab,h,50,50,20,-,4,7,-,-,-,
+jump  forward strong,h,80,100,40,-,5,3,-,-,-,
+jump  forward fierce,h,100,200,60,-,6,3,-,-,-,
+jump  forward short,h,40,50,20,-,4,6,-,-,-,
+jump  forward forward,h,70,100,40,-,6,3,-,-,-,
+jump forward roundhouse,h,100,200,60,-,7,3,-,-,-,
+right,h,30*50,50*50,40*20,-,17,2*2,17,-5,0,forces stand
+down,h,60,100,40,-,12,until ground,-,-,-,
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,140,200,60,-,65,2,40,-,-,
+forward throw,0.91,130,120,40,-,3,2,20,-,-,hard knockdown
+back throw,0.91,130,120,40,-,3,2,20,-,-,hard knockdown
+hadoken,hl,60,100,10/20,su,14,-,total 44,-4,0,pursuit property, 17~18f cancellable
+hadoken ex,hl,60*60,100*100,-250/0,su,14,-,total 44,-1,-,pursuit property, 17~18f cancellable
+shakunetsu hadoken jab,hl,50,200,10/30,su,25,-,total 50,-4,-,pursuit property, 27f cancellable
+shakunetsu hadoken strong,hl,35*35,50*100,10/16*16,su,25,-,total 57,-3,-,pursuit property, 28f cancellable
+shakunetsu hadoken fierce,hl,33x3,35x3,10/16x3,su,25,-,total 63,-1,-,pursuit property, 28~29f cancellable
+shakunetsu hadoken ex,hl,47x3,70x2*100,-250/0,su,25,-,total 50,+12,-,pursuit property, 27f cancellable
+hadoken (air),hl,40,50,5/20,-,14,-,after landing 16,-,-,
+hadoken ex,hl,40*40,50*50,-250/0,-,8,-,after landing 9,-,-,
+shoryuken jab,hl,100[70],100,30/40,su,3,14,17+18,-28,-,1~2f invincible, 3~4f unthrowable, 3~16f lower body strike and projectile invincible, 6f~ airborne, [] refers to active frames 3~14
+shoryuken strong,hl,70*60,80*50,30/30*16,su*su,3,2*12,25+18,-34,-,1~5f invincible, 6~16f lower body strike and projectile invincible, 6f~ airborne, 2nd hit pursuit property
+shoryuken fierce,hl,70*50*30,70*50*30,30/30*10*10,su*su*su,3,2*2*12,28+18,-37,-,1~6f invincible, 7~18f lower body strike and projectile invincible, 8f~ airborne, 2nd &amp; 3rd hit pursuit property
+shoryuken ex,hl,80*60*50,100*50*50,-250/0,su*su*su,3,2*2*12,28+18,-37,-,1~18f invincible, 8f~ airborne, 2nd &amp; 3rd hit pursuit property
+hurricane kick short,hl,70,50,20/20,-,11,2(6)2,12+8,-9,-,7~20f lower body projectile invincible, 7f~ airborne, floats opponent
+hurricane kick forward,hl,80*40*40,100*50*50,20/20*10*10,su*-*-,5,2(5)[2(5)2](5)1,16+12,-8,-,7~26f lower body projectile invincible, 7f~ airborne, 1st hit forces stand
+hurricane kick roundhouse,hl,80*40x3,100*50x3,20/20*10x3,su*-(x3),5,2(5)[1(5)1](5)[1(5)1](5)1,13+8,-1,-,7~36f lower body projectile invincible, 7f~ airborne, 1st hit forces stand
+hurricane kick ex,hl,35x5,40x5,-250/0,-,11,1(3)1(3)1(3)1(3)1,18+3,-1,-,6~27f lower body projectile invincible, 6f~ airborne, 1st-4th hit forces stand, pursuit property
+hurricane kick short,hl,60,50,10/30,-,9,[2(6)2](6)2,after landing 10,-,-,floats opponent, [] hits once at most
+hurricane kick forward,hl,70,50,10/30,-,9,[2(6)2](6)2,after landing 10,-,-,floats opponent, [] hits once at most
+hurricane kick roundhouse,hl,80,50,10/30,-,9,[2(6)2](6)2,after landing 10,-,-,floats opponent, [] hits once at most
+hurricane kick ex,hl,40x5,50x5,-250/0,-,7,1(3)1(3)1(3)1(3)1,after landing 4,-,-,pursuit property
+demon flip,-,-,-,20/-,-,-,-,-,-,-,5~39f airborne, 27~37f cancellable into followup, 40f starts hyakki gouzan (slide)
+demon flip ex,-,-,-,-250/0,-,-,-,-,-,-,5~39f airborne, 27~37f cancellable into followup, 40f starts hyakki gouzan (slide), tracks opponent, can cancel into hadouken ex (air)
+hyakki gouzan,l,100,200,0/40,-,39+7,15,14,-11,-,hard knockdown
+hyakki gousho,hl,110,200,0/30,-,27+8,2,after landing 4,-,-,hard knockdown, armor break
+hyakki goujin,hl,70,100,0/30,-,27+11,until ground,after landing 4,-,-,forces stand
+hyakki gousai,0.90,150,150,0/60,-,27+3,2,after landing 17,-,-,hard knockdown
+teleport punch,-,-,-,-,-,-,-,total 61,-,-,1~49f invincible, passes through opponent, can cancel into ultra 2 until 44f
+teleport kick,-,-,-,-,-,-,-,total 53,-,-,1~44f invincible, passes through opponent, can cancel into ultra 2 until 36f
+super combo,0.90,330,0,-1000/0,-,1+0,36,13,-,-,1f invincible, hard knockdown
+ultra combo 1,0.90,510,0,0/0,-,0+5,33,19,-,-,1~6f invincible, hard knockdown
+ultra combo 2,hl,50*450[421],0,0/0,-,0+14,2,46,-27,-,1~15f invincible, hard knockdown, armor break, [] refers to damage when canceled from teleport

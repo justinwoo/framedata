@@ -1,0 +1,60 @@
+close jab,hl,25,50,20,ch/sp/su,3,2,5,+4,+7,
+close strong,hl,65,100,40,sp/su,4,2,9,+3,+6,
+close fierce,hl,90[80],120[100],60,sp/su,3,4,20,-6,-1,force stand, [] refers to active frames 3~4
+close short,hl,25,50,20,sp/su,3,2,8,+1,+4,
+close forward,hl,60,100,40,sp/su,4,3,15,-4,-1,
+close roundhouse,hl,120[100],200,60,su,6,3,21,-6,-1,forces stand, [] refers to damage at foot
+far jab,hl,25,50,20,ch/sp/su,3,2,5,+4,+7,
+far strong,hl,75,100,40,su,7,3,12,-1,+2,
+far fierce,hl,110,200,60,-,8,3,17,-2,+2,
+far short,hl,30,50,20,sp/su,3,2,8,+1,+4,
+far forward,hl,75,100,40,-,9,2,12,0,+3,
+far roundhouse,hl,110,200,60,-,10,3,15,0,+4,
+crouch jab,hl,20,50,20,ch/sp/su,3,2,6,+3,+6,
+crouch strong,hl,65,80,40,sp/su,5,3,11,0,+3,
+crouch fierce,hl,90[80],120[100],60,sp/su,4,5,23,-10,-5,forces stand, [] refers to active frames 3~5
+crouch short,l,20,50,20,ch/sp/su,3,3,8,0,+3,
+crouch forward,l,60,100,40,sp/su,5,4,13,-3,0,
+crouch roundhouse,l,90,150,60,-,7,3,22,-7,-,hard knockdown
+jump up jab,h,50,50,20,-,3,7,-,-,-,
+jump up strong,h,80,100,40,-,4,6,-,-,-,
+jump up fierce,h,100,200,60,-,5,5,-,-,-,
+jump up short,h,30,50,20,-,4,5,-,-,-,
+jump up forward,h,70,100,40,-,5,8,-,-,-,
+jump up roundhouse,h,100,200,60,-,6,6,-,-,-,
+jump forward jab,h,50,50,20,-,3,7,-,-,-,
+jump forward strong,h,80,100,40,-,4,5,-,-,-,
+jump forward fierce,h,100,200,60,-,5,5,-,-,-,
+jump forward short,h,30,50,20,-,4,5,-,-,-,
+jump forward forward,h,70,100,40,-,5,4,-,-,-,
+jump forward roundhouse,h,100,200,60,-,6,5,-,-,-,
+flower kick,h,80,100,40,-,16,2,15,-3,+2,+0 on hit vs crouching opponents
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,130,200,60,-,65,2,35,-,-,
+forward throw,0.90,120,120,40,-,3,2,20,-,-,hard knockdown
+back throw,0.90,135,140,40,-,3,2,20,-,-,hard knockdown
+hadoken (lv1),hl,60[40*60],75,10/20,su,15,71,total 48,-7,-3,fireball 14f from button release, (something about canceling)
+hadoken (lv2),hl,80[50*70],100,10/20,su,13+14,71,total 56~,-3,+1,fireball 14f from button release, (something about canceling), charge 13~21f
+hadoken (lv3),hl,120[60*80],150,10/20,su,39,44,total 64,+1,+5,fireball 14f from button release, (something about canceling), charge 22f
+hadoken ex,hl,60*60,50*50,-250/0,su,15,-,total 48,-4,-,pursuit property, fireball 14f from button release, (something about canceling)
+hadoken ex,hl,60*70,60*60,-250/0,su,13+14,-,total 60~,-4,-,pursuit property, fireball 14f from button release, (something about canceling), charge 13~21f
+hadoken ex,hl,60*80,75*75,-250/0,su,39,-,total 72,-4,-,pursuit property, fireball 14f from button release, (something about canceling), charge 22f~
+shooken jab,hl,90*15,50*50,30/10x2,su*-,6,2*4,18 + after landing 11,-12,-,8f~ airborne
+shooken strong,hl,90*15x3,50*35x3,30/10x4,su*su*su*-,7,2x3*8,22 + after landing 11,-20,-,13f~ airborne, 4th hit pursuit property
+shooken fierce,hl,80*15x5,50*30x5,30/10x6,su(x3)*-(x3),12,2x5*10,20 + after landing 11,-20,-,18f~ airborne, 4th-6th hit pursuit property
+shooken ex,hl,45*15+45*15x5,40*20*40*20x5,-250/0,su(x5)*-(x3),12,2*4(19)2x5*9,22+11,-20,-,1~13f invincible, 14~23f and 43f~ airborne, 6th-8th hit pursuit property
+shunpukyaku short,hl,60,100,10/15,-,16,6,after landing 15,0,+4,10~21f legs projectile invincible, 10~21 airborne, armor break
+shunpukyaku forward,hl,60*60,50*50,20/20*20,-,17,3(8)6,after landing 18,-3,+1,11~33f legs projectile invincible, 11~33 airborne, armor break
+shunpukyaku roundhouse,hl,60x3,50x3,20/15x3,-,12,3(6)3(7)2,after landing 21,-2,+2,7~32f legs projectile invincible, 7~32 airborne, armor break
+shunpukyaku ex,hl,30x3*35,50*30x3,-250/0,-*-*-*su,12,3(6)3(7)2(12)3,after landing 14,+4,-,7~32f legs projectile invincible, 7~41 airborne, armor break, 4th hit floats opponent
+shunpukyaku (air),hl,50,50,10/40,-,8,3(9)3,after landing 7,-,-,
+shunpukyaku ex,hl,70,50,-250/0,-,8,3{(9)3}xn,after landing 7,-,-,active frames repeat until grounded
+sakura otoshi,hl,-,-,20/-,-,-,-,after landing 36,-,-,1f~until landing lower body projectile invincible, 7f~ airborne, 15f~until landing can cancel into follow up, total duration lp: 74f, mp: 76f, hp: 78f
+sakura otoshi ex,hl,-,-,-250/-,-,-,-,total 77,-,-,7f~ airborne, 15f~until landing can cancel into follow up, 36f landing recovery, tracks opponent
+sakura otoshi (attack),hl,50*50*60,70*70*100,0/15x3,-,14+4,3,after landing 16,,-,untechable limited juggle knockdown, pursuit property, repeats up to 3x
+sakura otoshi (attack) ex,hl,60x3,100x3,0/0,-,14+4,3,after landing 16,,-,untechable limited juggle knockdown, pursuit property, repeats up to 3x
+super combo,lx6*hl,45x6*80,0,-1000/0,-,1+6,{2(5)}x5*x(13)4,24,-7,-,1~12f invincible, 7th hit untechable limited juggle knockdown
+ultra combo 1,lx2*hl,75*75*68*233,0,0/0,-,0+11,2(7)2(11)2,47,-28,-,1~11f invincible, 1st-2nd hit forces stand, hard knockdown, armor break, 3rd hit goes into animation
+ultra combo 2,hl,56x4*105,0,0/0,-,0+12,-,total 96,-27,-,1~10f invincible, untechable limited juggle knockdown, pursuit property
+ultra combo 2 (high),hl,56x4*105,0,0/0,-,0+8,-,total 92,-27,-,1~7f invincible, untechable limited juggle knockdown, pursuit property

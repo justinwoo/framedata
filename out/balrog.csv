@@ -1,0 +1,74 @@
+close jab,hl,20,50,20,ch/sp/su,4,2,7,+2,+5,
+close strong,hl,70,100,40,sp/su,6,4,12,-2,+4,forces stand
+close fierce,hl,120,200,60,su,5,5,16,-3,+2,forces stand
+close short,hl,40,50,20,ch/sp/su,3,2,7,+2,+5,
+close forward,hl,90,100,40,sp/su,5,4,13,-3,0,
+close roundhouse,hl,100,200,60,su,7,2,13,+3,+7,
+far jab,hl,20,50,20,ch/sp/su,4,2,4,+5,+8,
+far strong,hl,90,100,40,su,7,2,16,-4,-1,
+far fierce,hl,100,200,60,-,9,4,21,-7,-3,
+far short,hl,40,50,20,ch/su,4,2,10,-1,+2,
+far forward,hl,90,100,40,su,9,3,12,-1,+2,
+far roundhouse,hl,110,200,60,-,8,2,20,-4,0,
+crouch jab,hl,20,50,20,ch/sp/su,3,2,5,+4,+7,
+crouch strong,hl,70,100,40,sp/su,7,4,12,-2,+1,
+crouch fierce,hl,90,200,60,su,7,5,21,-8,-3,
+crouch short,l,30,50,20,sp/su,4,2,9,0,+3,
+crouch forward,l,70,100,40,su,8,2,8,+4,+7,
+crouch roundhouse,l,90,120,60,su,8,2,22,-6,-,hard knockdown
+jump  up jab,h,50,50,20,-,5,2,-,-,-,
+jump  up strong,h,90,100,40,-,5,4,-,-,-,
+jump  up fierce,h,110,200,60,-,5,9,-,-,-,until end of active frames can adjust left or right
+jump  up short,h,50,50,20,-,5,3,-,-,-,
+jump  up forward,h,80,100,40,-,6,2,-,-,-,
+jump  up roundhouse,h,110,200,60,-,5,2,-,-,-,
+jump  forward jab,h,50,50,20,-,4,3,-,-,-,
+jump  forward strong,h,80,100,40,-,7,3,-,-,-,
+jump  forward fierce,h,90,200,60,-,6,7,-,-,-,
+jump  forward short,h,50,50,20,-,5,6,-,-,-,
+jump  forward forward,h,80,100,40,-,7,2,-,-,-,
+jump  forward roundhouse,h,100,200,60,-,8,6,-,-,-,
+focus attack lvl 1,hl,90,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,120,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,170,200,60,-,65,2,35,-,-,
+forward throw,0.93,130,160,40,-,3,2,20,-,-,hard knockdown
+back throw,0.93,130,100,40,-,3,2,20,-,-,hard knockdown
+dash straight jab,hl,100,100,20/30,su,13[4],7,17,-3,-2,forces stand, *1
+dash straight strong,hl,110,150,20/30,su,22[7],6,19,-6,-1,forces stand, *1
+dash straight fierce,hl,120,200,20/30,su,35[7],6,20,-8,-1,forces stand, *1
+dash straight ex,hl,120,200,-250/0,su,35[7],6,17,-2,+2,forces stand, *1 *2
+dash upper short,hl,100,100,20/30,su,14[5],4,20,-3,-1,cannot hit crouching opponents, *1
+dash upper forward,hl,110,150,20/30,su,22[7],4,20,-5,+1,cannot hit crouching opponents, *1
+dash upper roundhouse,hl,120,200,20/30,su,35[7],4,21,-7,+1,cannot hit crouching opponents, *1
+dash upper ex,hl,120,200,-250/0,su,35[7],4,18,-1,+4,cannot hit crouching opponents, *1 *2
+dash ground straight jab,l,90,100,20/30,su,22[13],8,21,-8,-,hard knockdown, *1
+dash ground straight strong,l,100,150,20/30,su,29[14],8,21,-10,-,hard knockdown, *1
+dash ground straight fierce,l,110,200,20/30,su,42[14],8,21,-11,-,hard knockdown, *1
+dash ground straight ex,l,110,200,-250/0,su,42[14],8,17,-3,-,hard knockdown, *1 *2
+dash swing blow jab,h,80,100,20/30,su,31[22],5,21,-5,+10,armor break, +9 hit advantage vs. crouching opponents, *1
+dash swing blow strong,h,90,150,20/30,su,38[23],5,21,-7,+10,armor break, +9 hit advantage vs. crouching opponents, *1
+dash swing blow fierce,h,100,200,20/30,su,51[23],5,21,-8,+10,armor break, +9 hit advantage vs. crouching opponents, *1
+dash swing blow ex,h,100,200,-250/0,su,51[23],5,21,-5,+10,armor break, +9 hit advantage vs. crouching opponents, *1 *2
+dash ground smash short,hl,100,100,20/30,su,21[12],8,20,-5,-,armor break, *1
+dash ground smash forward,hl,110,150,20/30,su,28[13],8,20,-7,-,armor break, *1
+dash ground smash roundhouse,hl,120,200,20/30,su,41[13],8,20,-9,-,armor break, *1
+dash ground smash ex,hl,120,200,-250/0,su,41[13],8,16,-3,-,armor break, *1 *2
+buffalo headbutt jab,hl,100,200,30/40,-,8,11,10+22,-22,-,1~7f upper body strike invincible, 1~18f projectile and throw invincible, 8f~ airborne, charge 55f
+buffalo headbutt strong,hl,120,200,30/40,-,10,11,10+22,-22,-,1~9f upper body strike invincible, 1~20f projectile and throw invincible, 10f~ airborne, charge 55f
+buffalo headbutt fierce,hl,140,200,30/40,-,12,11,10+22,-21,-,1~11f upper body strike invincible, 1~22f projectile and throw invincible, 12f~ airborne, charge 55f
+buffalo headbutt ex,hl,150,200,-250/0,-,12,11,10+22,-21,-,1~15f invincible, 12f~ airborne, charge 55f
+turn punch lvl1,hl,130,200,30/40,su,30,7,13,-2,+2,1~18f strike invincible, forces stand, armor break, charge 32f (0.5s)
+turn punch lvl2,hl,150,210,30/40,su,30,7,16,-5,-1,1~18f strike invincible, forces stand, armor break, charge 121f (2s)
+turn punch lvl3,hl,180,220,30/40,su,30,8,18,-8,-4,1~18f strike invincible, forces stand, armor break, charge 241f (4s)
+turn punch lvl4,hl,210,230,30/40,su,30,9,21,-12,-8,1~18f strike invincible, forces stand, armor break, charge 481f (8s)
+turn punch lvl5,hl,250,240,30/40,su,30,10,22,-14,-10,1~18f strike invincible, forces stand, armor break, charge 961f (16s)
+turn punch lvl6,hl,280,250,30/40,su,30,11,24,-17,-13,1~18f strike invincible, forces stand, armor break, charge 1441f (24s)
+turn punch lvl7,hl,410,260,30/40,su,30,12,26,-20,-16,1~18f strike invincible, forces stand, armor break, charge 1921f (32s)
+turn punch lvl8,hl,460,270,30/40,su,30,13,29,-24,-20,1~18f strike invincible, forces stand, armor break, charge 2401f (40s)
+turn punch lvl9,hl,510,280,30/40,su,30,15,32,-29,-25,1~18f strike invincible, forces stand, armor break, charge 2881f (48s)
+turn punch final,hl,560,290,30/40,su,30,16,36,-34,-30,1~18f strike invincible, forces stand, armor break, charge 3360f (56s)
+super combo punch,hl,60x4*105,0,-1000/0,-,1+9,6(8)6(7)6(8)6(15)3,31,-14,-,1~10f invincible, 1st-4th hit forces stand, untechable limited juggle knockdown, pursuit property, armor break, charge 55f
+super combo kick,hl,60x4*105,0,-1000/0,-,1+7,6(8)6(8)6(8)6(16)3,31,-14,-,1~9f invincible, 1st-4th hit cannot hit crouching opponents, untechable limited juggle knockdown, pursuit property, armor break, charge 55f
+ultra combo 1 punch,hl,45x2*38x2*45x2*38x2*53x3,0,0/0,-,0+11,3*3(8)3*3(7)3*3(8)3*3(15)1x3,39,-26,-,1~12f invincible, 1st-8th hit forces stand, untechable limited juggle knockdown, pursuit property, armor break, charge 55f
+ultra combo 1 kick,hl,45x2*38x2*45x2*38x2*53x3,0,0/0,-,0+8,3*3(8)3*3(7)3*3(8)3*3(16)1x3,39,-26,-,1~9f invincible, 1st-8th hit cannot hit crouching opponents, untechable limited juggle knockdown, pursuit property, armor break, charge 55f
+ultra combo 2,1.09,399,700,0/0,-,0+1,3,58,-,-,1f invincible, hard knockdown

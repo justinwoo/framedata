@@ -1,0 +1,62 @@
+close jab,hl,30,50,20,sp/su,4,2,10,-1,+2,
+close strong,hl,80,100,40,su,6,2,10,+2,+5,
+close fierce,hl,110[90],200[150],60,su,7,4,22,-7,-1,forces stand, [] refers to active frames 3~4
+close short,hl,40,50,20,sp/su,4,3,10,-2,+1,3~12f feet strike and projectile invincible
+close forward,hl,40*40,50*50,40*20,su*-,5,2(3)2,12,0,+3,4~18f feet strike and projectile invincible
+close roundhouse,hl,100[80],200[150],60,su,7,6,19,-6,-1,6~8f feet strike and projectile invincible, [] refers to active frames 3~6
+far jab,hl,30,50,20,sp/su,3,2,9,0,+3,
+far strong,hl,80,100,40,su,7,4,9,+1,+4,
+far fierce,hl,120,200,60,-,7,6,20,-6,-1,hit advantage is based on 2nd active frame
+far short,hl,30,50,20,su,5,2,12,-3,0,
+far forward,hl,90,100,40,su,5,2,19,-7,-4,
+far roundhouse,hl,100[80],200[150],60,-,3,6,23,-10,-5,4~8f feet strike and projectile invincible, [] refers to active frames 3~6
+crouch jab,hl,30,50,20,sp/su,4,2,9,0,+3,
+crouch strong,hl,90,100,40,su,7,4,15,-5,-2,
+crouch fierce,hl,100,200,60,su,8,4,25,-10,-4,forces stand
+crouch short,l,30,50,20,sp/su,4,3,7,+1,+4,
+crouch forward,l,70,100,40,sp/su,5,2,11,+1,+4,
+crouch roundhouse,l,90,150,60,su,6,5,21,-7,-,cannot fast recover (hard knockdown), opponent gets up 48f after recovery if hit on first active frame
+jump up jab,h,40,50,20,-,5,7,-,-,-,
+jump up strong,h,70,100,40,-,6,3,-,-,-,
+jump up fierce,h,120,200,60,-,4,3,-,-,-,
+jump up short,h,40,50,20,-,4,3,-,-,-,
+jump up forward,h,60,100,40,-,5,5,-,-,-,
+jump up roundhouse,h,120,200,60,-,7,7,-,-,-,
+jump forward jab,h,40,50,20,-,5,7,-,-,-,
+jump forward strong,h,70,100,40,-,6,5,-,-,-,
+jump forward fierce,h,90,200,60,-,5,4,-,-,-,
+jump forward short,h,40,50,20,-,5,5,-,-,-,
+jump forward forward,h,60,100,40,-,5,5,-,-,-,
+jump forward roundhouse,h,110,200,60,-,7,6,-,-,-,
+left,hl,50*40,50*50,40*20,sp/su*-,7,2(1)5,11,-2,+3,only +1 on hit vs crouching opponents
+overhead,h,50*40,50*50,40*20,-,25,2(1)4,11,-1,+5,hold button 15f
+downright,l,100,200,60,-,10,16,16,-11,-,cannot fast recover (hard knockdown)
+right,-,-,-,-,-,-,-,total 22,-,-,5~18f airborne &amp; can pass through opponent, treated as a special move
+left,-,-,-,-,-,-,-,total 29,-,-,4~21f airborne, treated as a special move
+down,-,-,-,-,sp/su,-,-,total 53,-,-,1~31f [4] everything except feet strike and projectile invincible, 32~40[5~13f] airborne, 29~32f [3] cancellable, duration can be extended, [] refers to extension
+down,-,-,-,-,sp/su,-,-,total 90,-,-,1~64f everything except feet strike and projectile invincible, 69~77f airborne, 29~65f cancellable
+focus attack lvl 1,hl,60,100,20,-,20,2,38,-24,-24,
+focus attack lvl 2,hl,90,150,40,-,17+11,2,38,-18,-,
+focus attack lvl 3,-,150,200,60,-,63,2,39,-,-,
+forward throw,0.93,130,140,40,-,3,2,20,-,-,cannot fast recover (hard knockdown). opponent gets up 81f after throw recovers
+back throw,0.93,120,120,40,-,3,2,20,-,-,cannot fast recover (hard knockdown). opponent gets up 54f after throw recovers
+rolling attack jab,hl,110,100,30/30,su,6,18,4 + after landing 2 [36+5],-24,-15,8f~ airborne, armor break, charge 55f, [] refers to on hit/block
+rolling attack strong,hl,120,150,30/30,su,6,33,4+2 [36+5],-24,-15,8f~ airborne, armor break, charge 55f, [] refers to on hit/block
+rolling attack fierce,hl,130,200,30/30,su,6,33,4+3 [36+5],-24,-15,7f~ airborne, [hit, active frames 1~2] limited juggle knockdown, armor break, charge 55f, [] refers to on hit/block
+rolling attack ex,hl,120,150,-250/0,su,6,33,4+3[36+5],-24,-15,projectile invincible until end of active frames, 7f~ airborne, [hit, active frames 1~2] limited juggle knockdown, armor break, charge 55f, [] refers to on hit/block
+backstep rolling short,hl,110,200,30/40,-,28,25,after landing 6,-,-,1f~ airborne, charge 55f
+backstep rolling forward,hl,120,200,30/40,-,28,29,after landing 6,-,-,1f~ airborne, charge 55f
+backstep rolling roundhouse,hl,130,200,30/40,-,28,33,after landing 6,-,-,1f~ airborne, charge 55f
+backstep rolling ex,hl,120,200,-250/0,-,28,33,after landing 6,-,-,1~22f invincible, 23~27f cannot be thrown, 1f~ airborne, charge 55f, direction can be controlled
+anti air rolling short,hl,100,200,30/30,-,4,18,40+5 [36+5],-21,-17,3f~ airborne, charge 55f, [] refers to on hit/block
+anti air rolling forward,hl,110,200,30/30,-,4,15,42+10 [36+5],-21,-17,3f~ airborne, charge 55f, [] refers to on hit/block
+anti air rolling roundhouse,hl,120,200,30/30,-,4,12,46+4 [36+5],-21,-17,3f~ airborne, charge 55f, [] refers to on hit/block
+anti air rolling ex,hl,120,200,-250/0,-,4,18,47+10 [36+10],-26,-17,1~5f invincible, 3f~ airborne, charge 55f, [] refers to on hit/block
+electricity jab,hl,120,200,20/20,su,5,{4(4)}x3*4,9,+5,-,1st hit on block does not stop immediately, can be extended
+electricity strong,hl,130,200,20/20,su,7,{2(2)}x7*2,9,+8,-,1st hit on block does not stop immediately, can be extended
+electricity fierce,hl,140,200,20/20,su,10,{1(1)}x16*2,9,+10,-,1st hit on block does not stop immediately, can be extended
+electricity ex,hl,150,200,-250/0,su,5,{1(1)}x16*2,11,+8,-,1st hit on block does not stop immediately
+super combo,hl,100x5,0,-1000/0,-,1+4,16*1x14,12 [38+5],-32,-,1~5f invincible, pursuit property, untechable limited juggle knockdown,  charge 55f, [] refers to on hit/block
+ultra combo 1,l*h*hlx4,0*120*125x4,0,0/0,-,0+4,2(20)26*1x20,17 [39+5],-41,-,1~27f invincible, 26~51f airborne, 1st hit cannot hit airborne opponents &amp; cannot be countered, pursuit property, charge 55f, can be held in place
+ultra combo 2<p>kick,l,120x2*90x3,0,0/0,-,0+12,2(7)2(33)90,31,-57,-,1~11f invincible, charge 42f, 12~145f projectile invincible, armor break, pursuit property, (translate)
+ultra combo 2<p>punch,-,30*195[470],0,0/0,-,0+7,55(10)6,80,-,-,1~7f invincible, 1st hit active from 8f~, 1st hit projectile invincible, armor break, pursuit property, 2nd hit cannot hit crouching opponents, can delay 1st hit for a maximum of 30 frames, 1st hit goes into animation, [] refers to animation, charge 42f

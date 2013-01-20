@@ -1,0 +1,68 @@
+close jab,hl,30,50,20,ch/sp/su,3,3,6,+2,+5,
+close strong,hl,70,100,40,sp/su,3,3,21,-3,+3,
+close fierce,hl,100,200,60,sp/su,5,4,22,-7,-3,[ground hit] forces stand
+close short,hl,30,50,20,sp/su,5,5,7,-1,+3,retains cancellable status when chained into
+close forward,hl,80,100,40,sp/su,3,5,16,-7,-2,
+close roundhouse,hl,40*70,125*75,60*20,su*-,8,8(2)4,17,-3,+2,[air hit] [1st hit] gives juggle state
+far jab,hl,30,50,20,ch/sp/su,4,3,6,+2,+5,
+far strong,hl,80,100,40,sp/su,5,4,14,-2,+2,
+far fierce,hl,120,200,60,-,7,3,18,0,+3,[counter-hit] knockdown
+far short,hl,40,50,20,-,5,6,6,-1,+2,
+far forward,hl,70,100,40,-,7,4,15,-3,+2,
+far roundhouse,hl,110,200,60,-,8,4,22,-8,-4,
+crouch jab,hl,30,50,20,ch/sp/su,3,2,7,+2,+5,
+crouch strong,hl,60,100,40,sp/su,4,4,8,+2,+5,
+crouch fierce,hl,90,200,60,sp/su,6,6,23,-10,-5,[ground hit] forces stand
+crouch short,l,20,50,20,ch/sp/su,4,3,9,-1,+2,
+crouch forward,l,60,100,40,sp/su,7,3,16,-4,0,
+crouch roundhouse,l,100,100,60,-,7,3,26,-11,-,[hit] hard knockdown
+jump up jab,h,50,50,20,-,4,9,-,-,-,
+jump up strong,h,80,100,40,-,4,5,-,-,-,
+jump up fierce,h,100,200,60,-,4,4,-,-,-,
+jump up short,h,40,50,20,-,5,9,-,-,-,
+jump up forward,h,80,100,40,-,6,10,-,-,-,
+jump up roundhouse,h,100,200,60,-,4,4,-,-,-,
+jump forward jab,h,50,50,20,-,4,9,-,-,-,
+jump forward strong,h,50*30,50*50,40*20,-,7,3*4,-,-,-,[air] [1st hit] gives perfect juggle state/ [2nd hit] gives juggle state and has pursuit property
+jump forward fierce,h,100,200,60,-,6,4,-,-,-,
+jump forward short,h,40,50,20,-,4,8,-,-,-,
+jump forward forward,h,70,100,40,-,6,6,-,-,-,
+jump forward roundhouse,h,100,200,60,-,7,4,-,-,-,
+overhead right,h,30*50,50*50,40*20,-,17,2(1)2,18,-6,+4,[hit] -2 frame advantage against crouching opponents/ [counter hit] hitstun +2
+right,hl,70,100,40,-,16,2,17,-2,0,3-4f feet [hit invincibility]/ 5~ midair/ 5~15 lower half of body [hit invincibility]/ pursuit property
+down,hl,70,100,40,-,13,until landing,after landing 4,-,-,1~12 lower half of body [hit invincibility]
+close strong,hl,90,100,60,su,8,3,20,-5,-,[hit] gives juggle state
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,140,200,60,-,65,2,35,-,-,
+forward throw,0.92,130,140,40,-,3,2,20,-,-,[hit] hard knockdown
+back throw,0.92,130,120,40,-,3,2,20,-,-,[hit] hard knockdown
+hadoken,hl,60,100,10/20,su,13,-,total 45,-6,-2,[air hit] gives juggle state/ 13~15 cancellable
+hadoken ex,hl,50*50,50*50,-250/0,su,12,-,total 42,0,+3,[air hit] gives juggle state/ pursuit property/ 12~14 cancellable
+shakunetsu hadoken jab,hl,50,200,10/30,su,25,-,total 53,-7,-,[hit] gives juggle state/ pursuit property/ 25~26 cancellable
+shakunetsu hadoken strong,hl,35*35,50*100,10/16*16,su,25,-,total 61,-7,-,[hit] gives juggle state/ pursuit property/ 25~26 cancellable
+shakunetsu hadoken fierce,hl,33x3,35x3,10/16*16*16,su,25,-,total 69,-7,-,[hit] gives juggle state/ pursuit property/ 25~26 cancellable
+shakunetsu hadoken ex,hl,47x3,70*70*100,-250/0,su,25,-,total 53,+9,-,[hit] gives juggle state/ pursuit property/ 25~26 cancellable
+shoryuken jab,hl,100[70],100,30/40,su,3,14,14+after landing 10,-17,-,1~2 [invincible]/ 3~4 [throw invincible]/ 2~16 lower half of body [invincible]/ 4~ [airborne]/ [hit] gives juggle state/ [] refers to active frames 3-14
+shoryuken strong,hl,100*30,100*50,20/20*20,su*-,3,2*12,25+after landing 18,-34,-,1~5 [invincible]/ 6~16 lower half of body [invincible]/ 5~ [airborne]/ [hit] gives juggle state/ 2nd hit has pursuit property
+shoryuken fierce,hl,100*60,150*50,20/20*20,su*-,3,2*12,28+after landing 18,-37,-,1~4 [invincible]/ 6~16 lower half of body [invincible]/ 5~ [airborne]/ [hit] gives juggle state/ 2nd hit has pursuit property
+shoryuken ex,hl,80*60*50,100*50*50,-250/0,su*su*-,3,2*2*12,30+after landing 18,-29,-,1~8 [invincible]/ 9~18 lower half of body [invincible]/ 8~ [airborne]/ [hit] gives juggle state/ 2nd and 3rd hits have pursuit property
+hurricane kick short,hl,70,50,30/30,-,11,2(6)2,12+after landing 8,-9,-,7~20 lower half of body [projectile invincible]/ 7~ [airborne]/ [hit] gives juggle state/ [2nd hit] aimed backwards/ doesn't hit crouching opponent
+hurricane kick forward,hl,80*40,100*50,30/20*10,su,5,2(5)[2(5)2](5)1,16+after landing 12,-8,-,7~26 lower half of body [projectile invincible]/ 7~ [airborne]/ first hit [ground hit] forces stand/ [hit] gives juggle state (only for first hit in midair)/ after 2nd hit: has pursuit property/ doesn't hit crouching opponent/ for first big hit, second half aimed backwards
+hurricane kick roundhouse,hl,80*40*40,200,30/30,su,5,2(5)[1(5)1](5)[1(5)1](5)1,13+after landing 8,-1,-,7~36 lower half of body [projectile invincible]/ 7~ [airborne]/ first hit [ground hit] forces stand/ [hit] gives juggle state (only for first hit in midair)/ after 2nd hit: has pursuit property/ doesn't hit crouching opponent/ for first big hit, second half aimed backwards
+hurricane kick ex,hl,30x4*40,40x5,-250/0,-,11,1(3)1 (3)1(3) 1(3)1,18+after landing 3,-1,-,6~27 lower half of body [projectile invincible]/ 6~ [airborne]/ hits 1~4 [ground hit] forces stand]/ hits 1~4 [air hit] and hit 5 [hit] gives juggle state/ has pursuit property
+hurricane kick (air),hl,60/70/80,50,10/30,-,9,2(6)2(6)2,after landing 10,-,-,[hit] gives juggle state/ attack power weak:60, middle:70, strong:80
+hurricane kick ex,hl,40x5,50x5,-250/0,-,7,[1(3)]x4*1,after landing 4,-,-,[hit] gives juggle state/ has pursuit property
+hurricane kick short,hl,30x2,50x2,10/20*20,-,9,2(6)2(6)2,17 + after landing 10,-4,0,1~26f lower body invincible to projectiles
+hurricane kick forward,hl,40x2,50x2,10/20*20,-,9,2(6)2(6)2,17 + after landing 10,-6,-2,1~26f lower body invincible to projectiles
+hurricane kick roundhouse,hl,40*50,50x2,10/20*20,-,9,2(6)2(6)2,17 + after landing 10,-8,-,1~26f lower body invincible to projectiles / [hit] gives juggle state
+hurricane kick ex,hl,40x5,50x5,-250/0,-,7,[1(3)]x5,17 + after landing 4,-8,-,[hit] gives juggle state
+axe kick short,hl,100,200,30/40,su,17,2,22,-7,+1,armor break effect/ doesn't hit midair enemy
+axe kick forward,hl,80,100,30/40,su,20,2,20,-2,+4,[air hit] hard knockdown / armor break effect/ has pursuit property
+axe kick roundhouse,hl,130,150,30/40,su,26,2,18,+1,-,[hit] hard knockdown/ armor break effect/ has pursuit property
+axe kick ex,h,160,200,-250/0,su,21,2,22,-4,-,[hit] hard knockdown/ armor break effect/ has pursuit property/ hits overhead
+teleport ppp,-,-,-,-,-,-,-,total 61,-,-,1~49 [invincible]/ goes through opponent
+teleport kkk,-,-,-,-,-,-,-,total 53,-,-,1~40 [invincible]/ goes through opponent
+super combo,-,370,0,-1000/0,-,1+0,37,13,-,-,1f invincible/ [hit] hard knockdown/ can [kara] cancel from any normal or special move
+ultra combo 1,hl,38x7*75 (53x7*60),0,0/0,-,0+11,0,total 125,-30,-,1~9 [invincible]/ hits 1~7 [air hit] and hit 8 [hit] gives juggle property into hard knockdown/ has pursuit property/ can charge up to 39 frames, point blank hit does 431 damage, outside point blank does 403 damage
+ultra combo 2,hl,30*15x2* 75*35x4[501],0,0/0,-,0+9,4*6(26) 4*4*4(37) 2*2*3*3*3,31+after landing 62,-78,-,1~16 [invincible]/ 9~ [airborne]/ [hit] hard knockdown/ armor break effect/ if 6th hit lands, opponent is locked in animation/ [] refers to animation

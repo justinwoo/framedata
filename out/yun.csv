@@ -1,0 +1,62 @@
+close jab,hl,20,50,20,ch/sp/su,3,2,7,+3,+6,
+close strong,hl,60,100,40,sp/su,4,4,10,+2,+4,
+close fierce,hl,70*50,80*120,30*30,sp/su*-,6,1*3,20,-5,0,forces stand
+close short,hl,30,50,20,sp/su,4,3,7,+2,+4,
+close forward,hl,60,80,40,jump,7,4,15,-5,-,floats opponent
+close roundhouse,hl,110,200,60,-,12,4,21,-7,-,techable knockdown
+far jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,
+far strong,hl,50,80,40,sp/su,5,5,14,-5,-2,
+far fierce,hl,120,200,60,-,9,3,20,-5,-1,
+far short,hl,30,50,20,sp/su,4,3,7,+2,+4,
+far forward,hl,70,100,40,-,6,3,13,-2,+1,
+far roundhouse,hl,110,200,60,-,12,4,16,-4,-,techable knockdown
+crouch jab,hl,30,50,20,ch/sp/su,3,2,8,+2,+4,
+crouch strong,hl,50,100,40,sp/su,5,4,6,+2,+6,
+crouch fierce,hl,50*60,100*80,30*30,-,6,2(4)4,17,-3,+1,
+crouch short,l,20,50,20,ch/sp/su,4,2,8,+1,+4,
+crouch forward,l,60,100,40,sp/su,5,3,14,-3,0,
+crouch roundhouse,l,65,100,60,-,10,4,23,-12,-,untechable knockdown, limited juggle
+jump jab,h,35,50,20,-,3,13,-,-,-,
+jump strong,h,80,100,40,-,4,6[8],-,-,-,[] refers to neutral jump
+jump fierce,h,110,200,60,-,6,4,-,-,-,
+jump short,h,40,50,20,-,4,10,-,-,-,
+jump forward,h,70,100,40,-,7,8,-,-,-,
+jump roundhouse,h,100,200,60,-,5,4,-,-,-,
+jump up fierce,h,110,200,60,-,5,5,-,-,-,
+senpuukyaku (right,h,70,100,40,-,20,4,13,-1,+2,6~23f feet invincible, 7~23f airborne
+dakai (right,hl,110,200,60,-,14,6,20,-8,-,techable knockdown
+raigekishuu (downright,hl,60,100,20,-,7,until ground,after landing 6,,,can juggle
+raigekishuu (downright,hl,60,100,20,-,8,until ground,after landing 6,,,can juggle
+raigekishuu (downright,hl,60,100,20,-,7,until ground,after landing 6,,,can juggle
+far jab,hl,20,50,20,-,4,2,8,+1,+4,
+far jab,hl,40,80,40,sp/su,5,5,14,-2,-1,
+strong,hl,35,50,30,-,9,3,20,-6,+1,
+strong,hl,60,62,30,su,13,5,24,-8,-,floats opponent, projectile hitbox, armor break
+crouch strong,hl,30*40,50*100,30*30,su,5,2(4)4,18,-4,0,
+crouch short,hl,55,100,40,su,7,4,24,-9,-,techable knockdown, can juggle
+jump strong,h,90,150,60,-,3,5,-,-,-,
+focus attack lvl1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl3,-,140,200,60,-,65,2,34,-,-,
+forward throw,0.9,110,150,40,-,3,2,20,-,-,hard knockdown
+back throw,0.9,130,110,40,-,3,2,20,-,-,hard knockdown
+zesshou hohou jab,hl,90,150,30/30,su,9,7,10+12,-9,-,9~19f feet invincible, 9f~ airborne, techable knockdown, armor break, can juggle
+zesshou hohou strong,hl,110,150,30/30,su,14,9,6+11,-7,-,14~22f feet invincible, 14f~ airborne, techable knockdown, armor break, can juggle
+zesshou hohou fierce,hl,130,150,30/30,su,17,11,8+6,-9,-,17~30f feet invincible, 17f~ airborne, techable knockdown, armor break, can juggle
+zesshou hohou ex,hl,80*60,100*100,-250/0,su*-,17,3*6,4+11,-1,-,17~25f feet invincible, 17f~ airborne, techable knockdown, armor break, can juggle
+tetsuzan kou jab,hl,100,200,30/60,su,16,6,14,-3,+2,[air hit] techable knockdown
+tetsuzan kou strong,hl,125,200,30/60,su,21,5,18,-6,-,4~18f upper body projectile invincible, techable knockdown
+tetsuzan kou fierce,hl,100,200,30/60,su,25,4,22,-7,-,18~22f upper body projectile invincible, techable knockdown
+tetsuzan kou ex,hl,90*40,150*100,-250/0,su*-,13,1(1)4,20,-6,-,4~13f upper body projectile invincible, techable knockdown, [2nd hit] cannot juggle/standard knockdown, can juggle
+kobokushi(feint),-,-,-,-,-,-,-,total 25,-,-,
+kobokushi,hl,140,250,20/60,su,23,10,13,+1,-,floats opponent, armor break, projectile hitbox
+kobokushi ex,hl,160,300,-250/0,su,23,13,21,-13,-,1~20f lower body invincibility, floats opponent (wall bounce), armor break, projectile hitbox, can juggle
+nishou kyaku short,hl,70*50,100*50,30/20*20,-,5,2(6)4,14+11,-16,-,1~5f invincible, 4f~ airborne, 8~16f legs projectile invincible, techable knockdown, [2nd hit] can juggle, cannot hit crouching opponent
+nishou kyaku forward,hl,70*40,100*50,30/30*20,-,6,2(6)4,18+14,-23,-,1~7f lower body invincible, 1~7f unthrowable, 5f~ airborne, 8~17f legs projectile invincible, techable knockdown, [2nd hit] can juggle, cannot hit crouching opponent
+nishou kyaku roundhouse,hl,70*70,100*100,30/30*30,-,8,2(6)4,24+14,-29,-,1~7f invincible, 7f~ airborne, 8~19f legs projectile invincible, techable knockdown, [2nd hit] can juggle
+nishou kyaku ex,hl,60*40,100*100,-250/0,-,4,2(6)4,18+17,-26,-,1~5f invincible, 3f~ airborne, 6~15f legs projectile invincible, floats opponent, can juggle
+zenpou tenshin,1.1,0,0,20/30,-,10,2,45,-,+7,forces stand
+zenpou tenshin ex,1.3,0,0,-250/0,-,8,2,45,-,+7,forces stand
+super combo,-,-,-,-1000/0,-,1+0,370,total 8,-,-,1~3f invincible, move properties change, certain moves dash/backdash/jump cancellable, lasts 370 frames
+ultra combo 1,hl,105*45x2*135[375],0,0/0,-,0+9,3(14)3(20)4(34)3,39,-21,-,1~11f invincible, floats opponent, 1st hit goes into animation, armor break, can juggle, [] refers to animation, last 5 frames of animation recovery is special move cancellable
+ultra combo 2,hl,60*45x3*255,0,0/0,-,0+10,3(6)3(7)3(10)3(9)1,46,-26,-,1~12f invincible, 13~19f projectile invincible, [1st-4th air hit] untechable limited juggle knockdown, 5th hit goes into animation

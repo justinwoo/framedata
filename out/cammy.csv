@@ -1,0 +1,59 @@
+close jab,hl,25,50,20,ch/sp/su,3,2,5,+4,+7,
+close strong,hl,70[60],100,40,sp/su,4,4,13,+1,+6,[] refers to active frames 3~4
+close fierce,hl,85,150,60,sp/su,4,4,11,+2,+6,
+close short,hl,25,50,20,ch/sp/su,4,2,8,+1,+4,
+close forward,hl,65,100,40,sp/su,4,3,17,-6,-3,
+close roundhouse,hl,110,200,60,-,9,5,24,-11,-7,
+far jab,hl,25,50,20,ch/sp/su,3,3,5,+3,+6,
+far strong,hl,70,100,40,sp/su,7,4,14,-4,-1,
+far fierce,hl,80,200,60,sp/su,6,3,19,-4,+1,damage at tip 100
+far short,hl,30,50,20,sp/su,4,3,6,+2,+5,
+far forward,hl,70,100,40,-,7,2,13,-1,+2,
+far roundhouse,hl,110,200,60,-,8,2,22,-6,-2,
+crouch jab,hl,20,50,20,ch/sp/su,3,2,6,+3,+6,
+crouch strong,hl,65,100,40,sp/su,5,4,7,+3,+6,
+crouch fierce,hl,90,200,60,-,6,4,12,+2,+7,forces stand
+crouch short,l,25,50,20,ch/sp/su,3,3,9,-1,+2,
+crouch forward,l,65,100,40,sp/su,6,4,12,-2,+1,
+crouch roundhouse,l,95,100,60,-,7,2,24,-8,-,hard knockdown
+jump  up jab,h,50,50,20,-,4,4,-,-,-,
+jump  up strong,h,80,100,40,-,5,4,-,-,-,
+jump  up fierce,h,100,200,60,-,5,3,-,-,-,
+jump  up short,h,30,50,20,-,5,5,-,-,-,
+jump  up forward,h,70,100,40,-,5,7,-,-,-,
+jump  up roundhouse,h,100,200,60,-,5,3,-,-,-,
+jump  forward jab,h,50,50,20,-,4,5,-,-,-,
+jump  forward strong,h,80,100,40,-,5,3,-,-,-,
+jump  forward fierce,h,100,200,60,-,6,4,-,-,-,
+jump  forward short,h,30,50,20,-,4,7,-,-,-,
+jump  forward forward,h,70,100,40,-,5,4,-,-,-,
+jump  forward roundhouse,h,100,200,60,-,6,5,-,-,-,
+focus attack lvl 1,hl,60,100,20,-,21,2,35,-21,-21,
+focus attack lvl 2,hl,80,150,40,-,17+12,2,35,-15,-,
+focus attack lvl 3,-,120,200,60,-,65,2,35,-,-,
+forward throw,0.79,140,130,40,-,3,2,20,-,-,hard knockdown
+back throw,0.79,135,140,40,-,3,2,20,-,-,hard knockdown
+air throw,1.00,150,150,40,-,5,2,-,-,-,hard knockdown
+cannon spike short,hl,100[120],100[150],30/40,su,5,21,20 + after landing 12,-30,-,1~4f invincible, 5f upperbody strike and projectile invincible, 5f unthrowable, 7f~ airborne, first 2 active frames pursuit property, [] refers to active frames 3 and onwards
+cannon spike forward,hl,100[140],100[180],30/40,su,5,26,18 + after landing 12,-30,-,1~5f invincible, 7f~ airborne, first 2 active frames pursuit property, [] refers to active frames 3 and onwards
+cannon spike roundhouse,hl,100[160],100[200],30/40,su,5,31,17 + after landing 12,-30,-,1~5f invincible, 7f~ airborne, first 2 active frames pursuit property, [] refers to active frames 3 and onwards
+cannon spike ex,hl,150[95],200[100],-250/0,su,5,26,18 + after landing 12,-30,-,1~6f invincible, 7f~ airborne, active frames 3 and onwards pursuit property, [] refers to active frames 3 and onwards
+spiral arrow short,l,80,150,30/30,-,7,19,4 + after landing 15,-17,-,14f~ airborne
+spiral arrow forward,l,100,150,30/30,-,7,19,4 + after landing 15,-17,-,14f~ airborne
+spiral arrow roundhouse,l,40*80,80*100,30/30*30,su*-,7,7*12,4 + after landing 15,-15,-,14f~ airborne
+spiral arrow ex,l,100*60,100*100,-250/0,su*-,7,7*12,4 + after landing 15,-10,-,1~25f projectile invincible, 14f~ airborne
+spin knuckle jab,hl,80*80,100*100,30/20*20,su*-,35,3*8,9,+4,-,1f strike and projectile invincible, 2~25f strike invincible (except head and feet), 2~25f projectile invincible (except head), 6~25f airborne, armor break
+spin knuckle strong,hl,80*80,100*100,30/20*20,su*-,33,3*8,10,+3,-,1f strike and projectile invincible, 2~24f strike invincible (except head and feet), 2~24f projectile invincible (except head), 6~24f airborne, armor break
+spin knuckle fierce,hl,80*80,100*100,30/20*20,su*-,36,3*8,10,+3,-,1f strike and projectile invincible, 2~27f strike invincible (except head and feet), 2~27f projectile invincible (except head), 6~27f airborne, armor break
+spin knuckle ex,hl,80*80,100*100,-250/0,su*-,33,3*8,10,+3,-,1~25f strike and projectile invincible, 6~24f airborne, armor break
+hooligan combination,-,-,-,30/-,-,-,-,see notes,-,-,7f~ airborne, 32f~ can cancel into followup, lp:53f mp:45f hp:39f cancels into razor's edge slicer
+hooligan combination ex,-,-,-,-250/0,-,-,-,see notes,-,-,7f~ airborne, tracks opponent, 32f~ can cancel into followup, 43f cancels into razor's edge slicer
+razor's edge slicer,l,100,150,0/30,su,10,9,13,-1,-,1~9f airborne
+razor's edge slicer ex,l,120,200,0/0,su,10,9,13,-1,-,1~9f airborne
+fatal leg twister,1.03,130,140,0/40,-,31+1,1,after landing 5,-,-,hard knockdown
+crossed scissors,1.03,140,150,0/40,-,31+1,1,after landing 5,-,-,hard knockdown
+cannon strike,hl,60,100,10/20,-,12,11,after landing 5,-,-,can be canceled from 9f of jump
+cannon strike ex,hl,80,100,-250/0,-,12,11,after landing 4,+14,+18,frame advantage based on lowest jump possible (startup 17f)
+super combo,hl,40x6*110,0,-1000/0,-,1+5,6*6*6(3)2*2(2)2(11)8,30 + after landing 21,-35,-,1~5f invincible, 3~26f 46f~ airborne, untechable limited juggle knockdown, pursuit property
+ultra combo 1,hl,30x6*210[30x5*330],0,0/0,-,0+10,6*6*6(3)2*2(2)2(11)8,30 + after landing 21,-35,-,1~10f invincible, 7~30f 50f~ airborne, untechable limited juggle knockdown, pursuit property, 5th hit goes into animation, [] refers to animation
+ultra combo 2,-,470,0,0/0,-,0+1,35,61,-,-,counters strikes until 35f, hard knockdown

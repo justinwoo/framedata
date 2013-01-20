@@ -1,0 +1,60 @@
+close jab,hl,30,50,20,ch/sp/su,3,2,7,+2,+5,
+close strong,hl,70,100,40,sp/su,4,5,10,-1,+2,
+close fierce,hl,50*70,70*130,30*30,sp/su*-,5,2(4)4,22,-8,-4,forces stand
+close short,hl,30,50,20,sp/su,5,2,6,+3,+6,
+close forward,hl,70,100,40,sp/su,5,2,9,+3,+6,
+close roundhouse,hl,70*60,120*80,60*20,-*su,6,3(2)4,18,-2,0,1st hit forces stand, [air hit] limited juggle knockdown, 2nd hit pursuit property
+far jab,hl,30,50,20,ch/sp/su,3,3,7,+1,+4,
+far strong,hl,90,110,40,sp,7,3,13,-2,+1,
+far fierce,hl,100,200,60,-,8,4,23,-9,-5,forces stand, only -4 on hit vs crouching opponents, [standing counter-hit or air counter-hit] floats opponent
+far short,hl,40,50,20,sp/su,5,2,7,+2,+5,
+far forward,hl,50*60,50*100,40*40,sp/su,5,1*4,16,-3,0,
+far roundhouse,hl,110,200,60,-,11,4,23,-9,-5,
+crouch jab,hl,20,50,20,ch/sp/su,4,2,6,+3,+6,
+crouch strong,hl,80,80,40,sp/su,6,2,12,0,+3,
+crouch fierce,hl,90,200,60,sp/su,7,6,19,-7,-3,
+crouch short,l,30,50,20,ch/sp/su,5,3,11,-3,0,
+crouch forward,l,70,90,40,-,5,4,15,-5,-,hard knockdown
+crouch roundhouse,l,100,140,60,-,14,9,15,-6,-,hard knockdown, [air hit] limited juggle knockdown
+jump up jab,h,40,50,20,-,5,19,-,-,-,
+jump up strong,h,70,80,40,-,7,8,-,-,-,
+jump up fierce,h,120,150,60,-,7,3,-,-,-,[air hit] limited juggle knockdown, pursuit property
+jump up short,h,50,60,20,-,5,11,-,-,-,
+jump up forward,h,90,100,40,-,9,8,-,-,-,
+jump up roundhouse,h,120,150,60,-,9,4,-,-,-,
+jump forward jab,h,40,50,20,-,5,19,-,-,-,
+jump forward strong,h,70,80,40,-,7,6,-,-,-,
+jump forward fierce,h,120,140,60,-,5,6,-,-,-,
+jump forward short,h,50,60,20,-,3,12,-,-,-,
+jump forward forward,h,90,100,40,-,6,4,-,-,-,
+jump forward roundhouse,h,130,150,60,-,7,4,-,-,-,
+knee shot (down,h,50,60,20,-,4,18,-,-,-,legs projectile invincible during startup
+focus attack lvl1,hl,60,100,20,-,22,2,36,-22,-22,
+focus attack lvl2,hl,80,150,40,-,17+12,2,36,-16,-,
+focus attack lvl3,-,140,200,60,-,64,3,36,-,-,
+forward throw,0.85,120,100,40,-,3,2,20,-,-,hard knockdown
+back throw,0.87,120,80,40,-,3,2,20,-,-,hard knockdown
+air slasher,hl,50,50,20/20,su,12,-,total 37,0,+3,14~15f cancellable, charge 50f
+air slasher ex,hl,50*50,50*50,-250/0,su,13,-,total 52,+1,+5,28~31f cancellable, pursuit property, 2nd hit releases on 27f, charge 50f
+double rolling sobat short,hl,90,90,20/40,su,12,2,21,-5,-,1~13f lower body strike and projectile invincible, armor break, charge 50f
+double rolling sobat forward,hl,60*50,70*50,20/30*20,su*-,14,2(14)2,23,-7,0,1~11f unthrowable, armor break, pursuit property, charge 50f
+double rolling sobat roundhouse,hl,80*50,90*50,20/30*20,su*-,14,2(14)2,24,-9,-1,1~11f unthrowable, armor break, pursuit property, charge 50f
+double rolling sobat ex,hl,80*60,90*70,-250/0,su*-,15,2(7)4,25,-8,-,1~7f invincible, 8~11f projectile invincible, 8~15f unthrowable, 1~11f &amp; 17~23f airborne, armor break, pursuit property, charge 50f
+jacknife maximum short,hl,120,50,30/20,-,6,2,18 + after landing 11,-10,-,1~6f invincible, 3f~ airborne, pursuit property, charge 55f
+jacknife maximum forward,hl,70*30,50*50,20/20*15,-,6,2(7)2,19 + after landing 11,-20,-,1~6f strike and projectile invincible, 3f~ airborne, pursuit property, charge 55f
+jacknife maximum roundhouse,hl,40*40*30,50*50*50,20/15*20*10,-,6,2(7)2(10)2,16 + after landing 15,-33,-,1~5f unthrowable, 3f~ airborne, pursuit property, charge 55f
+jackknife maximum ex,hl,50*20x4*50,50*20x4*50,-250/0,-,4,1(4)1(5)1(8)1(3)1(5)1,15 + after landing 11,-22,-,1~8f invincible, 3f~ airborne, pursuit property
+machinegun upper jab,hl,20*20*50,40*40*60,20/10x3,-*su*-,12,2(2)2(4)2,30,-11,-,1~23f head strike and projectile invincible, armor break, charge 55f
+machinegun upper strong,hl,30*20*50,40*40*60,20/10x3,-*su*-,12,2(2)2(4)2,30,-11,-,1~23f head strike and projectile invincible, armor break, charge 55f
+machinegun upper fierce,hl,35*35*50,40*40*60,20/10x3,-*su*-,12,2(2)2(4)2,30,-11,-,1~23f head strike and projectile invincible, armor break, charge 55f
+machinegun upper (followup 1),hl,15*15*50,30*30*60,0/10x3,-*su*-,3,2(2)2(4)2,30,-11,-,armor break
+machinegun upper jab,hl,25*25*60,40*40*60,0/10x3,-*su*-,4,2(2)[2(2)2](2)2,24,-5,-,armor break, [] only hits once
+machinegun upper strong,hl,25*25*60,50*50*60,0/10x3,-*su*-,4,2(2)[2(2)2](2)2,26,-7,-,armor break, [] only hits once
+machinegun upper fierce,hl,30*30*60,60*60*60,0/10x3,-*su*-,4,2(2)[2(2)2](2)2,30,-11,-,armor break, [] only hits once
+machinegun upper ex,hl,16x4*50,25x4*60,-250/0,-,12,2(4)2(2)2(2)2(2)2,24,-5,-,1~4f invincible, 5~31f strike and projectile invincible (translate), armor break, projectile hitbox, charge 55f
+machinegun upper ex,hl,16x7*50,25x7*60,0/0,-,12,2(1)2(2)2(2)2(3)2(2)2(2)2(2)2,28,-9,-,1~4f invincible, 5~31f strike and projectile invincible (translate), armor break, projectile hitbox, charge 55f
+super combo short,hl,40x6*110,0,-1000/0,-,1+6,2(17)2(18)2(2)2(10)2(4)2(32)2,31,-12,-,1~7f invincible, 38~48f airborne, untechable limited juggle knockdown, pursuit property, 6th hit cancels into ultra, charge 55f
+super combo forward,hl,40x6*110,0,-1000/0,-,1+10,2(16)3(17)2(3)1(10)2(4)3(31)3,30,-12,-,1~10f invincible, 42~52f &amp; 60~80f &amp; 92~103f airborne, untechable limited juggle knockdown, pursuit property, 6th hit cancels into ultra, charge 55f
+super combo roundhouse,hl,40x6*110,0,-1000/0,-,1+12,2(17)2(18)2(2)2(10)2(4)2(32)2,31,-12,-,1~11f invincible, 44~54f &amp; 62~83f &amp; 94~105f airborne, untechable limited juggle knockdown, pursuit property, 6th hit cancels into ultra, charge 55f
+ultra combo 1,hl,60x5*173,0,0/0,-,1+11,2(18)2(25)2(5)2(23)2(21)2,58,-29,-,1~11f invincible, untechable limited juggle knockdown, pursuit property, charge 55f
+ultra combo 2,hl,45x8[45*456],0,0/0,-,1+7,{2(2)} x 7*2,48,-29,-,1~7f invincible, 8~11f upper body strike and projectile invincible, hard knockdown, armor break, pursuit property, 1st hit goes into animation, [] refers to animation, charge 55f
