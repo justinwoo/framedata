@@ -23,7 +23,8 @@ data: ./out
 aliases: ./aliastable.dat
 irc.slashnet.org,6667,testerszxc,#kigurumi
 ```
-> it's self-explanatory, i hope.
+> Note: you append extra [server],[port],[nick],[[channels]] entries to add more connections
+> Please append channels in a [#chan1, #chan2, #chan3, ...] format to add extra channel joins
 
 In this version, the horrible rawextract.py script has been replaced with the much better SRKSF4scraper.py. Setup will now require the use of BeautifulSoup in the grabbing of HTML data from the SRK Wiki directly. Lots of the old voodoo code was left in to minimize development time.
 
