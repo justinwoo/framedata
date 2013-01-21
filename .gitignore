@@ -167,5 +167,6 @@ pip-log.txt
 #############
 
 #data you generate yourself
-.csv
-.dat
+*.csv
+*.dat
+./out/*

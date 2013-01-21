@@ -43,18 +43,10 @@ class chatbot:
 		self.sendOut('PONG %s\n' % (line.split(' ')[1]))
 	
 	def parsePRIVMSG(self, line):
-		outmsg = self.engine.parsePRIVMSG(line)
-		print outmsg
-		if outmsg == None:
-			return
-		outchan = line.lower().split(' ')[2]
-		self.sendPRIVMSG(outchan, outmsg)
-
-		# line = line.lower().split(' ')
-		# outchan = line[2]
-		# msgin = line[3:]
-		# self.sendPRIVMSG(outchan, 'I heard you say "%s"' % ' '.join(msgin)[1:])
-
+		self.engine.parsePRIVMSG(line)
+		if self.engine.isvalidinput():
+			outchan = line.lower().split(' ')[2]
+			self.sendPRIVMSG(outchan, self.engine.getOUTMSG())
 
 def main(lock, config, fdatapath, aliasespath):
 	line = config.rstrip().split(',') 
