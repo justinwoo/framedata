@@ -47,3 +47,4 @@ If anyone wishes to continue work and talk to me about it, just e-mail me.
 
 To be done:
 Use some other storage scheme like JSON
+Redo it in Ruby for fun
