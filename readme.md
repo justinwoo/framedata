@@ -46,4 +46,4 @@ Future work:
 If anyone wishes to continue work and talk to me about it, just e-mail me.
 
 To be done:
-Find bugs, fix them.
+Use some other storage scheme like JSON
